@@ -1,3 +1,50 @@
 body {
   font-family: 'Fira Sans', sans-serif;
 }
+
+button {
+  display: block;
+  border: none;
+  background: transparent;
+}
+
+.btn {
+  height: 50px;
+  width: 189px;
+  border-radius: 0;
+  text-transform: uppercase;
+  color: #fff;
+  background: #3726F2;
+  font-size: 14px;
+  letter-spacing: 0.3em;
+  transition: all 0.5s ease;
+}
+
+.btn:hover {
+  background: #  background: #;
+;
+  color: #fff;
+}
+
+.nav {
+  margin-top: 59px;
+}
+
+.offer {
+  margin-top: 127px;
+}
+
+.offer-cont {
+
+}
+
+.offer-cont__title {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  font-size: 60px;
+  line-height: 70px;
+}
+
+.offer-cont__text {
+
+}
