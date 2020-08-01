@@ -8,6 +8,14 @@ button {
   background: transparent;
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
 p {
   color: #818181;
   font-size: 18px;
@@ -26,6 +34,7 @@ h1, h2, h3, h4, h5, h6 {
   color: #151515;
   margin: 0;
   padding: 0;
+  letter-spacing: -0.5px;
 }
 
 h2 {
@@ -67,7 +76,6 @@ h2 {
 
 .offer-cont__title {
   font-weight: 700;
-  letter-spacing: -0.02em;
   font-size: 60px;
   line-height: 70px;
 }
@@ -216,7 +224,7 @@ h2 {
 
 .feature-images {
   position: absolute;
-  left: 0;
+  transform: translate(-135px);
   background: url(../img/img6.jpg) no-repeat left top;
   height: 570px;
   width: 50%;
@@ -230,6 +238,7 @@ h2 {
 
 .features-cont {
   padding-top: 38px;
+  padding-left: 65px;
 }
 
 .features-cont__title {
@@ -244,7 +253,11 @@ h2 {
   margin-right: 30px;
 }
 
-.features-cont__main__feature {
+.features-cont__main__features {
+  margin-bottom: 283px;
+}
+
+.features-cont__main__feature, .section-works-title {
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 24px;
@@ -253,4 +266,34 @@ h2 {
   font-weight: 500;
 }
 
+.works {
+
+}
+
+.section-works-title {
+  color: #8F8F8F;
+}
+
+.work-tabs {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 10px 60px;
+  width: 100%;
+}
+
+.work-nav {
+  text-transform: uppercase;
+  color: #222222;
+  opacity: 0.3;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 4px;
+  transition: all 0.5s ease;
+}
+
+.work-nav.active, .work-nav:hover {
+  color: #1434E1;
+  opacity: 1;
+}
 
