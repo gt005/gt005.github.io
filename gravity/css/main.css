@@ -271,6 +271,12 @@ h3 {
   color: #8F8F8F;
 }
 
+.works-tab-container {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 0px;
+}
+
 .work-nav {
   text-transform: uppercase;
   color: #222222;
@@ -431,6 +437,23 @@ h3 {
   }
 }
 
+@media screen and (max-width: 1200px) {
+  .works-wrap {
+    margin-top: 50px;
+    justify-content: space-around !important;
+  }
+
+  .works-tab-container {
+    display: flex;
+    justify-content: center;
+  }
+
+  .works-tab-container .nav-pills {
+    justify-content: space-around;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 768px) {
   .offer-cont {
     text-align: center;
@@ -438,15 +461,11 @@ h3 {
   }
 
   .hero {
-    background: url(../img/img1.jpg) no-repeat right top;
-    /* background-size: 97% 100%; */
+    background: url(../img/img1.jpg) no-repeat center center;
     position: relative;
-    height: 100vh;
-    width: 50%;
-    /* right: 0; */
-    /* top: 142px; */
-    height: 10vh;
+    height: 85vh;
     width: 80vw;
+    top: 40px;
   }
 
   .services-list__left {
@@ -456,8 +475,19 @@ h3 {
   .services-list {
     margin-top: 0px;
   }
+
 }
 
+@media screen and (max-width: 576px) {
+  .hero {
+    height: 50vh;
+  }
+
+  .video-btn {
+    transform: scale(0.8) translate(-45%);
+    left: 50%;
+  }
+}
 
 
 
