@@ -1,5 +1,6 @@
 body {
   font-family: 'Fira Sans', sans-serif;
+  background: #F4F4F4;
 }
 
 button {
@@ -39,6 +40,10 @@ h1, h2, h3, h4, h5, h6 {
 
 h2 {
   font-size: 38px;
+}
+
+h3 {
+  font-size: 22px;
 }
 
 .be-static {
@@ -189,7 +194,7 @@ h2 {
   margin-bottom: 20px;
 }
 
-.owl-carousel .item, .owl-item {
+.services-carousel .item, .services-carousel .owl-stage .owl-item {
   width: 825px !important;
 }
 
@@ -257,7 +262,7 @@ h2 {
   margin-bottom: 283px;
 }
 
-.features-cont__main__feature, .section-works-title {
+.features-cont__main__feature, .section-title__label {
   margin-bottom: 30px;
   font-size: 14px;
   line-height: 24px;
@@ -266,7 +271,7 @@ h2 {
   font-weight: 500;
 }
 
-.section-works-title {
+.section-title__label {
   color: #8F8F8F;
 }
 
@@ -343,7 +348,84 @@ h2 {
   width: 222px;
 }
 
+.testimonials {
+  padding-top: 248px;
+  padding-bottom: 176px;
+}
 
+.testimonials-title__label {
+  margin-bottom: 73px;
+}
+
+.contributor {
+  margin-top: 121px;
+}
+
+.contributor-name {
+  font-weight: 500;
+  line-height: 32px;
+  color: #222222;
+  letter-spacing: 0.02em;
+  margin-bottom: 13px;
+}
+
+.contributor-desc {
+
+}
+
+.contributor-image-container {
+  padding: 0 0 0 30px;
+}
+
+.contributor-image {
+  display: block;
+}
+
+.testimonials-carousel .owl-nav {
+  position: absolute;
+  bottom: 0;
+}
+
+.testimonials-carousel .owl-nav .owl-prev {
+  margin: 40px 25px 0 0 !important;
+}
+
+.testimonials-carousel .owl-nav .owl-next {
+  margin: 40px 20px 0 0 !important;
+}
+
+.clients {
+  background: #FAFAFA;
+}
+
+.clients-title {
+  padding-top: 102px;
+}
+
+.clients-text-title {
+  color: #222222;
+  padding-top: 110px;
+  margin-bottom: 17px;
+}
+
+.brands-clients {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 82px;
+  padding-bottom: 146px;
+}
+
+.footer {
+  background: #515151;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-logo {
+  text-align: center;
+}
 
 
 
