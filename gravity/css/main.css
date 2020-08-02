@@ -524,6 +524,10 @@ h3 {
 }
 
 @media screen and (max-width: 576px) {
+  .menu-btn {
+    transform: translate(-25%);
+  }
+
   .hero {
     height: 50vh;
   }
