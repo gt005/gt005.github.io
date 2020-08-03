@@ -1,10 +1,7 @@
-* {
-  border: 1px solid black;
-}
-
 body {
   font-family: 'Fira Sans', sans-serif;
   background: #F4F4F4;
+  max-width: 100vw;
 }
 
 button {
@@ -543,6 +540,14 @@ h3 {
 
   .about-image {
     padding-top: 50px;
+  }
+
+  .works-wrap__item {
+    width: 80vw;
+  }
+
+  .works-wrap__item img {
+    max-width: 80vw;
   }
 
   .work-end-btn {

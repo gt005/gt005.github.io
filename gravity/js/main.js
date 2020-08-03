@@ -21,7 +21,7 @@ $(document).ready(function () {
 
     $('.testimonials-carousel').owlCarousel({
         loop:true,
-        margin:30,
+        margin: 1,
         nav: true,
         dots: false,
         navText: ['<img src="img/left.svg">', '<img src="img/right.svg">'],
