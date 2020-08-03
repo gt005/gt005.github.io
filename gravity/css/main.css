@@ -110,7 +110,7 @@ h3 {
   position: absolute;
   top: 45%;
   left: -8%;
-  /*box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);*/
+  box-shadow: -20px 60px 220px rgba(0, 0, 0, 0.44);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -537,8 +537,8 @@ h3 {
   }
 
   .video-btn {
-    transform: scale(0.8) translate(-45%);
-    left: 46%;
+    transform: scale(0.8) translate(-5%);
+    left: 0;
   }
 
   .about-image {
