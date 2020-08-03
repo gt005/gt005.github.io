@@ -1,95 +1,170 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <title>Golden</title>
 </head>
 <body>
 
-<header>
+<header class="header">
     <div class="container">
-        <nav class="nav-bar-container">
-            <img src="img/logo.png" alt="logo" class="logo">
-            <ul class="nav-bar">
-                <li><a class="nav-link" href="#">home</a></li>
-                <li><a class="nav-link" href="#">services</a></li>
-                <li><a class="nav-link" href="#">portfolio</a></li>
-                <li><a class="nav-link" href="#">about</a></li>
-                <li><a class="nav-link" href="#">contact</a></li>
-            </ul>
-        </nav>
-
-        <h1 style="font-size: 40px; margin: 150px 0 0 0">welcome to our studio!</h1>
-        <h1 style="font-size: 75px; margin: 50px 0 50px 0">it's nice to meet you</h1>
-        <button>tell me more</button>
+        <div class="row align-items-end">
+            <div class="col-lg-5">
+                <img src="img/logo.png" alt="golden" class="logo">
+            </div>
+            <div class="col-lg-7">
+                <ul class="navbar">
+                    <li class="nav">
+                        <a href="#" class="nav-link">
+                            home
+                        </a>
+                    </li>
+                    <li class="nav">
+                        <a href="#" class="nav-link">
+                            services
+                        </a>
+                    </li>
+                    <li class="nav">
+                        <a href="#" class="nav-link">
+                            portfolio
+                        </a>
+                    </li>
+                    <li class="nav">
+                        <a href="#" class="nav-link">
+                            about
+                        </a>
+                    </li>
+                    <li class="nav">
+                        <a href="#" class="nav-link">
+                            contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="offer">
+                    <h2 class="header-title__welcome">
+                        Welcome To Our Studio!
+                    </h2>
+                    <h1 class="header-title__main">
+                        It’s nice to Meet you
+                    </h1>
+                    <button class="header-btn">
+                        Tell Me More
+                    </button>
+                </div>
+            </div>
+        </div>
     </div>
 </header>
 
-<section>
-<div class="container">
-    <h1 class="typical-h1">
-        SERVICES
-    </h1>
-    <p class="typical-p">Proin iaculis purus consequat sem cure. </p>
-    <ul class="services-container-cards">
-        <li class="services-card">
-            <img src="img/icon1.png">
-            <h2>
-                E-Commerce
-            </h2>
-            <p>Proin iaculis purus consequat sem cure
-                digni ssim. Donec porttitora entum suscipit
-                aenean rhoncus posuere odio in tincidunt.</p>
-        </li>
-        <li class="services-card">
-            <img src="img/icon2.png">
-            <h2>
-                Responsive Web
-            </h2>
-            <p>Proin iaculis purus consequat sem cure
-                digni ssim. Donec porttitora entum suscipit
-                aenean rhoncus posuere odio in tincidunt.</p>
-        </li>
-        <li class="services-card">
-            <img src="img/icon3.png">
-            <h2>
-                Web Security
-            </h2>
-            <p>Proin iaculis purus consequat sem cure
-                digni ssim. Donec porttitora entum suscipit
-                aenean rhoncus posuere odio in tincidunt.</p>
-        </li>
-    </ul>
-</div>
-</section>
-
-<section style="background-color: #f9f9f9">
+<section class="services">
     <div class="container">
-        <h1 class="typical-h1">Our portfolio</h1>
-        <p class="typical-p">Proin iaculis purus consequat sem cure.</p>
-        <div class="portfolio-images">
-            <img src="img/img1.jpg">
-            <img src="img/img2.jpg">
-            <img src="img/img3.jpg">
+        <div class="row">
+            <div class="col">
+                <h2 class="section-title__label">
+                    Services
+                </h2>
+                <p class="section-title__text">
+                    Proin iaculis purus consequat sem cure.
+                </p>
+            </div>
+        </div>
+        <div class="row">
+            <ul class="services-cards">
+                <li class="col-md-3 services-cards-item">
+                    <img src="img/icon1.png" alt="service card" class="services-item-image">
+                    <h3 class="services-cards-item__title">
+                        E-Commerce
+                    </h3>
+                    <p class="services-cards-item__text">
+                        Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.
+                    </p>
+                </li>
+                <li class="col-md-3 services-cards-item">
+                    <img src="img/icon2.png" alt="service card" class="services-item-image">
+                    <h3 class="services-cards-item__title">
+                        Responsive Web
+                    </h3>
+                    <p class="services-cards-item__text">
+                        Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.
+                    </p>
+                </li>
+                <li class="col-md-3 services-cards-item">
+                    <img src="img/icon3.png" alt="service card" class="services-item-image">
+                    <h3 class="services-cards-item__title">
+                        Web Security
+                    </h3>
+                    <p class="services-cards-item__text">
+                        Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt.
+                    </p>
+                </li>
+            </ul>
         </div>
     </div>
 </section>
 
-<section>
+<section class="portfolio">
     <div class="container">
-        <h1 class="typical-h1">About Us</h1>
-        <p class="typical-p">Proin iaculis purus consequat sem cure. </p>
-        <ul class="about-us-cards">
-            <li class="about-us-card left-about">
-                <div class="about-text">
-                    <h2>July 2010
+        <div class="row">
+            <div class="col">
+                <h2 class="section-title__label">
+                    Our portfolio
+                </h2>
+                <p class="section-title__text">
+                    Proin iaculis purus consequat sem cure.
+                </p>
+            </div>
+        </div>
+        <div class="row d-flex justify-content-between">
+            <div class="col-md-4">
+                <img src="img/img1.jpg" alt="portfolio photo" class="portfolio-img">
+            </div>
+            <div class="col-md-4">
+                <img src="img/img2.jpg" alt="portfolio photo" class="portfolio-img">
+            </div>
+            <div class="col-md-4">
+                <img src="img/img3.jpg" alt="portfolio photo" class="portfolio-img">
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<section class="about-us">
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2 class="section-title__label">
+                    About us
+                </h2>
+                <p class="section-title__text">
+                    Proin iaculis purus consequat sem cure.
+                </p>
+            </div>
+        </div>
+
+        <div class="row about-card">
+            <div class="offset-lg-1 col-lg-4 d-flex align-items-center">
+                <div class="left-about-card-text">
+                    <h3 class="about-us-text__title">
+                        July 2010 <br>
                         Our Humble Beginnings
-                    </h2>
-                    <p>
+                    </h3>
+                    <p class="about-us-text__text">
                         Proin iaculis purus consequat sem cure
                         digni ssim. Donec porttitora entum suscipit
                         aenean rhoncus posuere odio in tincidunt. Proin
@@ -97,55 +172,84 @@
                         ssim. Donec porttitora entum suscipit.
                     </p>
                 </div>
-                <img src="img/about1.jpg">
-            </li>
-            <li class="about-us-card right-about">
-                <img src="img/about2.jpg">
-                <div class="about-text">
-                    <h2>January 2011
+            </div>
+            <div class="col-lg-2">
+                <img src="img/about1.jpg" alt="" class="about-us-image">
+            </div>
+        </div>
+
+        <div class="row about-card">
+            <div class="offset-lg-5 col-lg-2">
+                <img src="img/about2.jpg" alt="" class="about-us-image">
+            </div>
+            <div class="col-lg-4 d-flex align-items-center">
+                <div class="right-about-card-text">
+                    <h3 class="about-us-text__title">
+                        January 2011 <br>
                         Facing Startup Battles
-                    </h2>
-                    <p>
+                    </h3>
+                    <p class="about-us-text__text">
                         Proin iaculis purus consequat sem cure
                         digni ssim. Donec porttitora entum suscipit
                         aenean rhoncus posuere odio in tincidunt. Proin
                         iaculis purus consequat sem cure digni
-                        ssim. Donec porttitora entum suscipit aenean
-                        rhoncus posuere odio in tincidunt.
+                        ssim. Donec porttitora entum suscipit.
                     </p>
                 </div>
-            </li>
-            <li class="about-us-card left-about">
-                <div class="about-text">
-                    <h2>December 2012
+            </div>
+        </div>
+
+        <div class="row about-card">
+            <div class="offset-lg-1 col-lg-4 d-flex align-items-center">
+                <div class="left-about-card-text">
+                    <h3 class="about-us-text__title">
+                        December 2012 <br>
                         Enter The Dark Days
-                    </h2>
-                    <p>
-                        Proin iaculis purus consequat sem cure
-                        digni ssim. Donec porttitora entum suscipit
-                        aenean rhoncus posuere odio in tincidunt. Proin
-                        iaculis purus consequat sem cure digni.
-                    </p>
-                </div>
-                <img src="img/about3.jpg">
-            </li>
-            <li class="about-us-card right-about">
-                <img src="img/about4.jpg">
-                <div class="about-text">
-                    <h2>february 2014
-                        Our Triumph
-                    </h2>
-                    <p>
+                    </h3>
+                    <p class="about-us-text__text">
                         Proin iaculis purus consequat sem cure
                         digni ssim. Donec porttitora entum suscipit
                         aenean rhoncus posuere odio in tincidunt. Proin
                         iaculis purus consequat sem cure digni
-                        ssim. Donec porttitora entum suscipit aenean.
+                        ssim. Donec porttitora entum suscipit.
                     </p>
                 </div>
-            </li>
-        </ul>
-        <p class="copyright">© Copyright 2014 FreebiesXpress.com</p>
+            </div>
+            <div class="col-lg-2">
+                <img src="img/about3.jpg" alt="" class="about-us-image">
+            </div>
+        </div>
+
+        <div class="row about-card">
+            <div class="offset-lg-5 col-lg-2">
+                <img src="img/about4.jpg" alt="" class="about-us-image">
+            </div>
+            <div class="col-lg-4 d-flex align-items-center">
+                <div class="right-about-card-text">
+                    <h3 class="about-us-text__title">
+                        february 2014 <br>
+                        Our Triumph
+                    </h3>
+                    <p class="about-us-text__text">
+                        Proin iaculis purus consequat sem cure
+                        digni ssim. Donec porttitora entum suscipit
+                        aenean rhoncus posuere odio in tincidunt. Proin
+                        iaculis purus consequat sem cure digni
+                        ssim. Donec porttitora entum suscipit.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div class="copyright">
+                    <p class="copyright-text">
+                        © Copyright 2014 FreebiesXpress.com
+                    </p>
+                </div>
+            </div>
+
+        </div>
     </div>
 </section>
 

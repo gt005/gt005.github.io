@@ -1,137 +1,183 @@
-body {
-  font-family: Arial, sans-serif;
-  padding: 0;
-  margin: 0;
+p {
+  color: #666666;
 }
 
 ul {
+  list-style: none;
+  margin: 0;
   padding: 0;
 }
 
-li {
-  list-style: none;
-}
-
-header {
-  background: url("../img/first-bg.jpg") no-repeat center top / cover;
-  height: 698px;
-}
-
-.typical-h1 {
+.section-title__label {
+  padding-top: 110px;
+  text-transform: uppercase;
+  text-align: center;
   color: #333333;
   font-size: 40px;
-  padding-top: 120px;
-  margin: 0 0 20px 0;
+  font-weight: bold;
 }
 
-.typical-p {
-  margin: 0 0 60px 0;
+.section-title__text {
+  text-align: center;
   font-size: 16px;
-  color: #666666;
 }
 
-header h1 {
-  text-align: center;
+.header {
+  background: url(../img/first-bg.jpg) no-repeat center center / cover;
+  text-transform: uppercase;
   color: white;
-  text-transform: uppercase;
-}
-
-header button {
-  border: 0;
-  border-radius: 5px;
-  background-color: rgb(245, 217, 123);
-  width: 240px;
-  height: 66px;
-  font-size: 18px;
-  text-transform: uppercase;
-  color: #333333;
-}
-
-.container {
-  width: 930px;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.nav-bar-container {
-  padding-top: 40px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.nav-bar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .logo {
-  height: min-content;
+  padding-bottom: 16px;
+}
+
+.navbar {
+  margin-top: 40px;
+  margin-bottom: 0;
+}
+
+.nav {
+
 }
 
 .nav-link {
-  padding: 0 20px;
-  text-decoration: none;
-  text-transform: uppercase;
   color: white;
-}
-
-.services-container-cards {
-  margin: 0 0 100px 0 ;
-  padding: 0;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.services-card {
-  width: 27%;
-}
-
-.services-card h2, .about-text h2 {
-  color: #333333;
-  font-size: 18px;
-}
-
-.services-card p, .about-text p, .copyright {
-  color: #666666;
   font-size: 14px;
 }
 
-.portfolio-images {
-  padding-bottom: 130px;
+.nav-link:hover {
+  color: #cbcbcb;
 }
 
-.portfolio-images img {
-  padding: 0 8px;
+.offer {
+  text-align: center;
+  margin-top: 200px;
 }
 
-.about-us-card {
+.header-title__welcome {
+  font-size: 40px;
+  padding-bottom: 50px;
+}
+
+.header-title__main {
+  font-size: 75px;
+  font-weight: bold;
+}
+
+.header-btn {
+  background: #FCC82A;
+  margin-top: 50px;
+  margin-bottom: 160px;
+  height: 65px;
+  width: 240px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
+  text-transform: uppercase;
+  border: 0;
+  border-radius: 3px;
+}
+
+.services-cards {
   display: flex;
-  align-items: center;
-  margin-bottom: 90px;
-  width: 60%;
+  justify-content: space-between;
+  margin-top: 65px;
+  padding-bottom: 110px;
+  text-align: center;
 }
 
-.about-us-cards img {
-  height: fit-content;
+.services-item-image {
+  padding-bottom: 20px;
 }
 
-.right-about {
-  position: relative;
-  left: 40%;
+.services-cards-item__title {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333333;
 }
 
-.about-text {
+.portfolio {
+  background: #f5f5f5;
+  padding-bottom: 135px;
+}
+
+.portfolio-img {
+  padding-top: 70px;
+  width: 100%;
+}
+
+.about-card {
+  margin: 90px 0 90px 0;
+}
+
+.left-about-card-text {
   text-align: right;
-  padding: 0 40px;
+  margin-right: 20px;
+  padding-left: 4ex;
 }
 
-.right-about .about-text {
+.right-about-card-text {
   text-align: left;
+  margin-left: 35px;
+  padding-right: 4ex;
+}
+
+.about-us-text__title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.about-us-text__text {
+  font-size: 14px;
 }
 
 .copyright {
+  text-align: center;
+  font-size: 14px;
   padding-bottom: 100px;
 }
+
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  .right-about-card-text {
+    margin-left: 70px;
+    padding-right: 0;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .logo {
+    left: 50%;
+    position: relative;
+    transform: translate(-50%);
+    top: 30px;
+  }
+
+  .about-us {
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .services-cards {
+    display: block;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .offer {
+    margin-top: 20px;
+  }
+
+  .header-title__welcome {
+    font-size: 30px;
+    padding-bottom: 50px;
+  }
+}
+
+
+
