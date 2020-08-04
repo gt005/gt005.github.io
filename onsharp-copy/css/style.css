@@ -1,0 +1,205 @@
+body, button, input, optgroup, select, textarea {
+  color: #626262;
+  font-size: 15px;
+  font-family: Montserrat,sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  -moz-osx-font-smoothing: auto;
+  line-height: 1.7333;
+}
+
+ul {
+  list-style: none;
+}
+
+h3 {
+  font-size: 32px;
+}
+
+.site-header {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  position: fixed;
+  border-bottom: 1px solid #e6e6e6;
+  z-index: 999;
+  background: white;
+}
+
+.header-logo {
+  max-width: 150px;
+  height: auto;
+}
+
+.main-navigation-link {
+  font-size: .75rem;
+  font-weight: 700;
+  letter-spacing: 1px;
+  line-height: normal;
+  margin-right: 42px;
+  padding: 0 !important;
+  color: #58595b;
+}
+
+.main-navigation-link:hover {
+  color: #58595b;
+}
+
+.main-button {
+  border-bottom: none!important;
+  color: #ffffff!important;
+  padding: 1em 2em !important;
+  background: #f58025;
+  border: 1px solid #f58025;
+  -webkit-border-radius: 0.25em;
+  -moz-border-radius: 0.25em;
+  border-radius: 0.25em;
+  margin-right: 0;
+}
+
+.header-section {
+  background: url(../img/smartphone-tap-min.jpg) no-repeat center /cover;
+  padding-top: 40px;
+  padding-bottom: 8em;
+  width: 100%;
+  text-align: center;
+}
+
+.header-title__label {
+  font-weight: 600;
+  padding-top: 125px;
+  font-size: 94px;
+}
+
+.header-title__text {
+  color: #fff;
+  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+  padding-bottom: 2em;
+  padding-top: 3px;
+}
+
+.what-we-do-title {
+  text-align: center;
+}
+
+.what-we-do-title__label {
+  line-height: 1.4em;
+  font-weight: 600;
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
+
+.what-we-do-title__text {
+  line-height: 1.4em;
+  font-size: 16px;
+}
+
+.what-we-do-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0 0 0;
+}
+
+.what-we-do-card-item {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.what-we-do-card-item i {
+  font-size: 90px;
+  color: #f58025;
+  padding-bottom: 20px;
+}
+
+.what-card-link {
+  color: inherit;
+  font-size: 24px;
+  font-weight: 600;
+  padding-bottom: 25px;
+}
+
+.what-card-link:hover {
+  color: inherit;
+}
+
+.what-card-learn-more {
+  padding-top: 10px;
+  font-size: 18px;
+  color: #f58025;
+}
+
+.what-card-learn-more:hover {
+  color: #f58025;
+}
+
+.location-numbers {
+  background: #222222;
+  padding: 60px 0 120px;
+  margin-top: 20px;
+}
+
+.location-number {
+  margin: 25px 0;
+  color: #ffffff;
+  font-size: 48pt;
+  font-weight: 600;
+}
+
+.location-text {
+  color: #f58025;
+  font-size: 15pt;
+}
+
+.serve {
+  padding-top: 35px;
+}
+
+.serve-title-block {
+  text-align: center;
+}
+
+.serve-title__label {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+.serve-title__text {
+  color: #58595b;
+  line-height: 1.4em;
+  font-family: sans-serif;
+}
+
+.serve-title__line {
+  height: 4px;
+  background: #f58025;
+  width: 95%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.serve-title__btn {
+  padding: 1.1em 0.7em !important;
+  position: relative;
+  border-radius: 0.5em;
+  top: 30px;
+  transition: 0.4s;
+}
+
+.serve-title__btn:hover {
+  text-decoration: none;
+  background: #ff8526;
+}
+
+.serve-title__image {
+  padding-top: 5px;
+  padding-left: 25px;
+}
+
+.serve-cards {
+  display: flex;
+  justify-content: space-between;
+  padding: 100px 0 0 0;
+}
