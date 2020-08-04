@@ -514,8 +514,58 @@ h3 {
   font-size: 14px;
 }
 
+.social-networks-buttons {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+}
 
+.social-network-btn {
+  width: 65px;
+}
 
+.social-network-btn {
+  font-size: 61px;
+  color: white;
+  transition: 0.3s;
+  opacity: 0.85;
+}
 
+.social-network-btn:hover {
+  opacity: 1;
+}
 
+.social-network-bg {
+  position: relative;
+  display: flex!important;
+  align-items: center;
+  justify-content: center;
+}
 
+.social-network-icon {
+  font-size: 17px;
+  position: absolute;
+  color: white;
+}
+
+.all-right-reserved-container {
+  color: #b4b5b8;
+  font-size: 13px;
+  font-family: Open Sans;
+  padding-top: 55px;
+}
+
+.all-right-reserved:after {
+  content: "\002d";
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.all-right-reserved-container a {
+  color: #b4b5b8;
+  transition: 0.3s;
+}
+
+.all-right-reserved-container a:hover {
+  color: white;
+}
