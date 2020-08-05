@@ -83,6 +83,8 @@ h3 {
   height: 51px;
   border-bottom: 1px solid;
   border-color: #8b9b93;
+  display: flex;
+  align-items: center;
 }
 
 .mobile-navigation-link {
@@ -93,6 +95,44 @@ h3 {
   line-height: 3.4;
   text-transform: uppercase;
 }
+
+.desktop-sub-navbar {
+  position: absolute;
+  top: 70%;
+  display: none;
+  opacity: 0;
+  z-index: 1;
+}
+
+@-webkit-keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.desktop-sub-navbar ul {
+  border-top: 2px solid #f58025;
+}
+
+.desktop-sub-navbar ul li {
+  height: 40px;
+}
+
+.desktop-sub-navbar ul li a {
+  font-size: .8rem;
+  padding: 0 20px;
+}
+
+#navbarNavAltMarkup ul li:hover .desktop-sub-navbar {
+  display: block;
+  -webkit-animation: fadeIn 0.3s;
+  animation: fadeIn 0.3s;
+  opacity: 1;
+}
+
 
 #mobileNavbar .navbar-nav .nav-item {
   height: 51px;
