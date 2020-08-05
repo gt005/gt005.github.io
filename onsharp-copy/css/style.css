@@ -316,13 +316,14 @@ h3 {
   padding-bottom: 50px;
 }
 
-.company-cards-row {
+.company-cards-container {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .company-image {
-  width: 100%;
+  width: 20%;
 }
 
 .section-start {
@@ -581,6 +582,44 @@ h3 {
   }
 
   .what-we-do {
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .company-cards-container {
+    padding: 0 10%;
+  }
+
+  .company-image {
+    width: 34%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header-title__label {
+    font-size: 12vw;
+  }
+
+  .company-cards-container {
+    justify-content: center;
+  }
+
+  .company-image {
+    width: 51%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .subscribe {
+    height: 600px;
+  }
+
+  .subscribe-title {
+    font-size: 12vw
+  }
+
+  .company-image {
+    width: 90%;
   }
 }
 
