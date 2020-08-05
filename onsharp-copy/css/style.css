@@ -120,6 +120,7 @@ h3 {
 
 .what-we-do-cards {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   padding: 20px 0 0 0;
 }
@@ -128,8 +129,7 @@ h3 {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-left: 25px;
-  padding-right: 25px;
+  padding: 25px 10px;
 }
 
 .what-we-do-card-item i {
@@ -377,7 +377,6 @@ h3 {
   display: flex;
   position: absolute;
   width: 100vw;
-  height: 357px;
   padding: 0;
   margin: 0;
 }
@@ -596,8 +595,40 @@ h3 {
 }
 
 @media screen and (max-width: 768px) {
+  .section-start {
+    height: 500px;
+  }
+
+  .ready-start-title {
+    font-size: 11vw;
+    line-height: 1.375em;
+  }
+
   .header-title__label {
     font-size: 12vw;
+    padding-bottom: 20px;
+  }
+
+  .serve-title-block {
+    padding-top: 300px;
+  }
+
+  .serve-title__image-container {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+  }
+
+  .serve-title__image {
+    width: 90%;
+  }
+
+  .serv-card-row.not-main {
+    margin: 0!important;
+  }
+
+  .serve-card {
+    padding-top: 30px;
   }
 
   .company-cards-container {
@@ -607,6 +638,34 @@ h3 {
   .company-image {
     width: 51%;
   }
+
+  .addresses {
+    position: relative;
+    flex-direction: column;
+  }
+
+  .address-cards {
+    width: 100%;
+  }
+
+  .address-city {
+    padding-top: 150px;
+  }
+
+  .address-cards.address-tel {
+    padding-bottom: 150px;
+  }
+
+  .footer {
+    margin-top: 0;
+    height: auto;
+  }
+
+  .footer-address.not-first {
+    position: relative;
+    padding-top: 30px;
+  }
+
 }
 
 @media screen and (max-width: 576px) {

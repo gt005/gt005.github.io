@@ -32,14 +32,26 @@
                         <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
                     </button>
                     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                        <div class="navbar-nav ml-auto align-items-center">
-                            <a class="nav-item nav-link main-navigation-link" href="#">WHAT WE DO</a>
-                            <a class="nav-item nav-link main-navigation-link" href="#">WHO WE SERVE</a>
-                            <a class="nav-item nav-link main-navigation-link" href="#">OUR WORK</a>
-                            <a class="nav-item nav-link main-navigation-link" href="#">ABOUT</a>
-                            <a class="nav-item nav-link main-navigation-link" href="#">RESOURCES</a>
-                            <a class="nav-item nav-link main-navigation-link main-button" href="#">WORK WITH US</a>
-                        </div>
+                        <ul class="navbar-nav ml-auto align-items-center">
+                            <li class="nav-item">
+                                <a class="nav-link main-navigation-link" href="#">WHAT WE DO</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link main-navigation-link" href="#">WHO WE SERVE</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link main-navigation-link" href="#">OUR WORK</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link main-navigation-link" href="#">ABOUT</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link main-navigation-link" href="#">RESOURCES</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link main-navigation-link main-button" href="#">WORK WITH US</a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
 
@@ -84,7 +96,7 @@
         </div>
         <div class="row">
             <ul class="what-we-do-cards">
-                <li class="what-we-do-card-item col-md-4">
+                <li class="what-we-do-card-item col-12 col-md-4">
                     <i class="fab fa-dev"></i>
                     <a href="#" class="card-link">
                         App & Software <br>
@@ -98,7 +110,7 @@
                     </a>
                 </li>
 
-                <li class="what-we-do-card-item col-md-4">
+                <li class="what-we-do-card-item col-12 col-md-4">
                     <i class="fab fa-chrome"></i>
                     <a href="#" class="card-link">
                         Web Design <br>
@@ -112,7 +124,7 @@
                     </a>
                 </li>
 
-                <li class="what-we-do-card-item col-md-4">
+                <li class="what-we-do-card-item col-12 col-md-4">
                     <i class="fas fa-camera"></i>
                     <a href="#" class="card-link">
                         Web Photos <br>
@@ -178,7 +190,7 @@
                     </a>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 serve-title__image-container">
                 <img src="img/Client_Map_Transparent_BG-min.png" alt="country" class="serve-title__image">
             </div>
         </div>
@@ -239,7 +251,7 @@
             </div>
         </div>
 
-        <div style="margin-top: 50px" class="serv-card-row row d-flex justify-content-between">
+        <div style="margin-top: 50px" class="serv-card-row not-main row d-flex justify-content-between">
             <div class="col-md-4">
                 <div class="serve-card">
                     <div class="serve-image">
@@ -294,7 +306,7 @@
             </div>
         </div>
 
-        <div style="margin-top: 50px" class="serv-card-row row d-flex justify-content-between">
+        <div style="margin-top: 50px" class="serv-card-row not-main row d-flex justify-content-between">
             <div class="col-md-4">
                 <div class="serve-card">
                     <div class="serve-image">
@@ -478,7 +490,7 @@
 <footer class="footer">
     <div class="container-xl p-xl-0">
         <div class="row">
-            <div class="col-4">
+            <div class="col-12 col-md-4">
                 <div class="footer-address">
                     <img src="img/onsharp_footer-min.png" width="200" height="auto" sizes="(max-width: 300px) 100vw, 300px" alt="logo" class="footer-logo">
                     <p class="footer-address-text">
@@ -496,7 +508,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4 col-12">
                 <div class="footer-address not-first">
                     <p class="footer-address-text">
                         <strong style="color: #dddddd;">Onsharp, Inc.</strong> <br>
@@ -513,7 +525,7 @@
                 </div>
             </div>
 
-            <div class="col-4">
+            <div class="col-md-4 col-12">
                 <div class="footer-address not-first">
                     <p class="footer-address-text">
                         <strong style="color: #dddddd;">Onsharp, Inc.</strong> <br>
@@ -531,7 +543,7 @@
             </div>
         </div>
         <div class="row contacts-row">
-            <div class="col-4 offset-4">
+            <div class="col-md-4 offset-md-4 col-12">
                 <h3 class="email-contact-title">
                     SIGN UP FOR OUR NEWSLETTER
                 </h3>
@@ -544,7 +556,7 @@
                 </form>
             </div>
 
-            <div class="col-4 text-center">
+            <div class="col-12 col-md-4 text-center">
                 <a href="#">
                     <img src="img/onsharp-hubspot-solutions-partner.png" alt="partner" class="contacts-image-partner">
                 </a>
@@ -587,7 +599,7 @@
         </div>
 
         <div class="row">
-            <div class="col-4 offset-4">
+            <div class="col-sm-4 col-12 offset-sm-4">
                 <div class="all-right-reserved-container">
                     <span class="all-right-reserved">
                     © 2020 Onsharp, Inc. All Rights Reserved.
@@ -602,8 +614,9 @@
 
 </footer>
 
-<script src="jquery-3.5.1.min.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
 
 </body>
 </html>
