@@ -74,6 +74,26 @@ h3 {
   width: 100%;
 }
 
+.sub-navbar ul {
+  background: #58595b;
+  padding: 0;
+}
+
+.sub-mobile-navbar-item {
+  height: 51px;
+  border-bottom: 1px solid;
+  border-color: #8b9b93;
+}
+
+.mobile-navigation-link {
+  padding-left: 35px;
+  font-family: Montserrat,sans-serif;
+  font-size: 12px;
+  letter-spacing: 1px;
+  line-height: 3.4;
+  text-transform: uppercase;
+}
+
 #mobileNavbar .navbar-nav .nav-item {
   height: 51px;
   padding-left: 30px;
@@ -89,12 +109,12 @@ h3 {
   line-height: 3.4;
 }
 
-#mobileNavbar .navbar-nav .nav-item a {
+#mobileNavbar .navbar-nav .nav-item a, .sub-mobile-navbar-item a {
   color: white;
   transition: 0.3s;
 }
 
-#mobileNavbar .navbar-nav .nav-item a:hover {
+#mobileNavbar .navbar-nav .nav-item a:hover, .sub-mobile-navbar-item a:hover {
   color: #f58025;
 }
 
