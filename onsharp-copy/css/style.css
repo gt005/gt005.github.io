@@ -41,9 +41,26 @@ h3 {
   background: white;
 }
 
+.navbar-collapse.collapse.show .site-header {
+  padding-bottom: 0;
+}
+
 .header-logo {
   max-width: 150px;
   height: auto;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+#mobileNavbar {
+  background: #58595b;;
+  margin-top: 20px;
 }
 
 .main-navigation-link {
@@ -571,16 +588,12 @@ h3 {
 }
 
 @media screen and (max-width: 1200px) {
-  .site-header {
+  .header-logo {
     padding-left: 15px;
-    padding-right: 15px;
   }
 
   .header-title__label {
     line-height: 1.375em;
-  }
-
-  .what-we-do {
   }
 }
 
