@@ -62,9 +62,30 @@ h3 {
   outline: none;
 }
 
+.navbar-toggler-icon {
+  display: flex;
+  align-items: center;
+}
+
 #mobileNavbar {
-  background: #58595b;;
+  background: #58595b;
   margin-top: 20px;
+  position: absolute;
+  width: 100%;
+}
+
+#mobileNavbar .navbar-nav .nav-item {
+  padding-left: 30px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid;
+  border-color: #8b9b93;
+}
+
+#mobileNavbar .navbar-nav .nav-item a {
+  color: white;
 }
 
 .main-navigation-link {
