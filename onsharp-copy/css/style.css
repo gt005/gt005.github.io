@@ -250,6 +250,10 @@ h3 {
   padding-bottom: 20px;
 }
 
+.what-we-do-card-item a:hover i {
+  text-decoration: none;
+}
+
 .card-link {
   color: inherit;
   font-size: 24px;
@@ -258,6 +262,10 @@ h3 {
 }
 
 .card-link:hover {
+  color: inherit;
+}
+
+.card-link-text:hover {
   color: inherit;
   text-decoration: underline;
 }
@@ -693,6 +701,10 @@ h3 {
 }
 
 @media screen and (max-width: 992px) {
+  .serve-title__image {
+    width: 90%;
+  }
+
   .company-cards-container {
     padding: 0 10%;
   }
@@ -725,10 +737,6 @@ h3 {
     position: absolute;
     display: flex;
     justify-content: center;
-  }
-
-  .serve-title__image {
-    width: 90%;
   }
 
   .serv-card-row.not-main {
