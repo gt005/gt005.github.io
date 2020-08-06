@@ -443,8 +443,12 @@ h3 {
   justify-content: space-between;
 }
 
-.company-image {
+.company-cards-container a {
   width: 20%;
+}
+
+.company-image {
+  width: 100%;
 }
 
 .section-start {
@@ -710,7 +714,7 @@ h3 {
     padding: 0 10%;
   }
 
-  .company-image {
+  .company-cards-container a {
     width: 34%;
   }
 }
@@ -752,7 +756,7 @@ h3 {
     justify-content: center;
   }
 
-  .company-image {
+  .company-cards-container a {
     width: 51%;
   }
 
