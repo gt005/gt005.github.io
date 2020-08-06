@@ -342,6 +342,7 @@ h3 {
 .serve-title__image {
   padding-top: 5px;
   padding-left: 25px;
+  height: intrinsic;
 }
 
 .serv-card-row .col-md-4 {
@@ -496,7 +497,7 @@ h3 {
 .addresses {
   display: flex;
   position: absolute;
-  width: 100vw;
+  width: 100%;
   padding: 0;
   margin: 0;
 }
