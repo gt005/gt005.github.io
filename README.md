@@ -5,3 +5,5 @@
 
 
 Перепись сайта <a href="http://gt005.github.io/onsharp-copy/">onsharp</a> под bootstrap 4. Компания занимается разработкой программного обеспечения. Сделан по <a href="http://gt005.github.io/onsharp-copy/">сайту</a>.
+
+Адаптивная bootstrap 4 верстка сайта компании <a href="http://gt005.github.io/tinyone/">tinyone</a>, которая разрабатывает приложения. <a href="http://gt005.github.io/tinyone/tinyone.psd">Скачать</a> PSD макет этого сайта.

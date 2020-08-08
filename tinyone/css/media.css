@@ -81,6 +81,11 @@
     left: 30%;
     width: 40%;
   }
+
+  .subscribe-container__address {
+    width: 80%;
+    left: 10%;
+  }
 }
 
 @media (max-width: 991px) {
