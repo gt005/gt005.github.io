@@ -82,6 +82,19 @@
     width: 40%;
   }
 
+  .subscribe-container__form {
+    flex-direction: column;
+  }
+
+  .subscribe-container__form__input {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .subscribe-container__form__btn {
+    width: 100%;
+  }
+
   .subscribe-container__address {
     width: 80%;
     left: 10%;
