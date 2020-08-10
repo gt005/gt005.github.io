@@ -1,0 +1,389 @@
+@font-face {
+  font-family: Gilroy-Medium;
+  src: url(../font/Gilroy-Medium.ttf);
+}
+
+@font-face {
+  font-family: Gilroy-Bold;
+  src: url(../font/Gilroy-Bold.ttf);
+}
+
+* {
+  font-size: 18px;
+  line-height: 22px;
+  font-family: Gilroy-Medium;
+  color: #070707;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Gilroy-Bold;
+  padding: 0;
+  margin: 0;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+ul, li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#menu-mobile-toggle-btn {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+
+.open-menu-btn, .close-menu-btn {
+  cursor: pointer;
+  display: none;
+  font-weight: bold;
+}
+
+.show-menu-mobile-btn {
+  position: absolute;
+  top: 80px;
+  right: 30px;
+  width: 33px;
+  z-index: 99;
+}
+
+.hide-menu-mobile-btn {
+  position: absolute;
+  top: 78px;
+  right: 35px;
+  width: 23px;
+}
+
+.menu {
+  padding: 33px 0;
+  border-bottom: 1px solid #828282;
+  display: flex;
+  justify-content: space-between;
+}
+
+.menu-item a {
+  color: #828282;
+  font-family: Gilroy-Bold;
+}
+
+.menu-item a.active {
+  color: #070707;
+}
+
+.menu-item a:hover {
+  color: #070707;
+}
+
+.mobile-language-toggle-container {
+  display: none;
+}
+
+.mobile-language-toggle {
+  font-size: 16px;
+  font-family: Gilroy-Bold;
+}
+
+.header-title {
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 40px;
+}
+
+.header-title__author-name {
+  font-size: 47px;
+}
+
+.header-title__author-description {
+  padding-left: 20px;
+  padding-bottom: 10px;
+}
+
+.header-title__language-toggle-container {
+  text-align: center;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.header-title__language-toggle {
+  font-size: 16px;
+  padding-bottom: 10px;
+  transform: rotate(-90deg) translateX(80%);
+  padding: 0;
+  margin: 0;
+  font-family: Gilroy-Bold;
+}
+
+.ru-toggle {
+  color: #828282;
+}
+
+.author-photo {
+  padding: 0;
+  margin: 30px 0 105px 0;
+  width: 100%;
+  height: 388px;
+  background: url(../img/author-photo-big.png) no-repeat top center / cover;
+}
+
+section.about-me {
+  background: #F6F6F6;
+  height: 506px;
+  display: flex;
+  align-items: center;
+}
+
+.about-me-text__title {
+  padding-bottom: 20px;
+}
+
+.about-me-text__text {
+  padding-bottom: 40px;
+}
+
+.skills {
+  padding-top: 91px;
+  padding-bottom: 110px;
+}
+
+.skills-title__title {
+  padding-bottom: 70px;
+}
+
+.skills-title__text {
+  padding-bottom: 80px;
+}
+
+.skill-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 82px;
+}
+
+.skill-card__img {
+  padding-bottom: 23px;
+}
+
+.skill-card__name {
+  color: #828282;
+  padding-bottom: 67px;
+}
+
+.skill-card__rating {
+  position: absolute;
+  bottom: 0;
+}
+
+.skill-card__rating img {
+  padding: 0 5px;
+}
+
+.skill-card__rating-not-active-star {
+  opacity: 0.13;
+}
+
+.portfolio {
+  background: #F6F6F6;
+}
+
+.portfolio-title {
+  padding-top: 113px;
+  padding-bottom: 47px;
+  text-align: center;
+}
+
+.portfolio-work {
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+.portfolio-work__photo {
+  width: 100%;
+}
+
+.portfolio-work__name {
+  text-decoration: underline;
+  padding-top: 45px;
+}
+
+.footer {
+  padding-top: 115px;
+  padding-bottom: 125px;
+  text-align: center;
+}
+
+.contacts-title {
+  padding-bottom: 20px;
+}
+
+.contacts-title-text {
+  padding-bottom: 30px;
+}
+
+.contacts-send-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  width: 180px;
+  border-radius: 30px;
+  color: white;
+  background: #080808;
+  font-family: Gilroy-Bold;
+  transition: 0.3s;
+  margin-bottom: 80px;
+}
+
+.contacts-send-btn:hover {
+  text-decoration: none;
+  color: #bfbfbf;
+}
+
+.contacts-social-networks img {
+  padding: 0 30px;
+}
+
+.contacts-social-networks-description {
+  padding-top: 45px;
+  font-size: 14px;
+  line-height: 17px;
+  color: #828282;
+}
+
+@media (max-width: 767px) {
+  #menu-mobile-toggle-btn:checked ~ .menu-nav {
+    opacity: 1;
+    visibility: visible;
+    z-index: 1111;
+  }
+
+  #menu-mobile-toggle-btn:checked ~ .menu {
+    z-index: 1112;
+  }
+
+  .open-menu-btn, .close-menu-btn {
+    display: block;
+  }
+
+  .menu-nav {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0;
+    transition: 0.7s;
+    left: 0;
+    top: 0;
+    z-index: -1111;
+    visibility: hidden;
+  }
+
+  .menu {
+    padding-top: 80px;
+    padding-left: 26px;
+    z-index: -1112;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    height: 100%;
+    border: 0;
+  }
+
+  .menu-item {
+    margin-bottom: 68px;
+  }
+
+  .menu-item a {
+    font-size: 34px;
+    color: #828282;
+  }
+
+  .header-title {
+    padding-top: 65px;
+  }
+
+  .header-title__author-name {
+    width: 50%;
+    line-height: 58px;
+    color: black;
+    padding-left: 11px;
+  }
+
+  .header-title__author-description {
+    padding-left: 15px;
+    padding-top: 23px;
+    margin: 0;
+  }
+
+  .author-photo {
+    height: 478px;
+    background: url(../img/author-photo.png) no-repeat top center / cover;
+  }
+
+  .header-title__language-toggle-container {
+    display: none;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+
+  .mobile-language-toggle-container {
+    display: flex;
+    position: absolute;
+    right: -5px;
+    bottom: 80px;
+    transform: rotate(90deg);
+  }
+
+  .mobile-language-toggle {
+    color: #828282;
+  }
+
+  .mobile-language-toggle, .ru-toggle, .eng-toggle {
+    font-family: Gilroy-Bold;
+    font-size: 34px;
+    line-height: 42px;
+  }
+
+  .skills-title__title {
+    padding-bottom: 50px;
+  }
+
+  .skills-title__text {
+    padding-bottom: 70px;
+  }
+
+  .skill-card {
+    margin-top: 82px;
+    margin-bottom: 65px;
+  }
+
+  .skill-card__name {
+    padding-bottom: 0;
+    margin-bottom: 0;
+  }
+
+  .footer {
+    padding-bottom: 90px;
+  }
+
+  .contacts-title-text {
+    margin-bottom: 0;
+    padding-bottom: 40px;
+  }
+
+  .contacts-send-btn {
+    border-radius: 50px;
+    width: 90%;
+  }
+
+  .contacts-social-networks img {
+    padding: 0px 20px;
+  }
+}
