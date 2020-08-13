@@ -35,11 +35,11 @@ body {
   border-radius: 2px;
   margin-bottom: 15px;
   font-size: 12px;
-  width: 100%;
+  padding-left: 10px;
+  width: calc(100% - 10px);
 }
 
 .cost-calculation input::placeholder {
-  padding-left: 15px;
   color: rgb(93, 93, 93);
 }
 
@@ -55,10 +55,6 @@ body {
 
 .input-parameters-row input {
   width: 47%;
-}
-
-.cost-calculation .product-name {
-  width: 100%;
 }
 
 .price-res {
@@ -125,11 +121,4 @@ body {
     padding-bottom: 15px;
   }
 
-  .input-parameters-row {
-    flex-direction: column;
-  }
-
-  .input-parameters-row input {
-    width: 100%;
-  }
 }
