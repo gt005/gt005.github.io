@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<form class="cost-calculation" method="post">
+    <h3>
+        Онлайн-расчет стоимости перевозки ктг
+    </h3>
+    <input type="text" name="name" class="product-name" placeholder="Наименование груза">
+    <div class="input-parameters">
+        <div class="input-parameters-row">
+            <input type="text" name="product-length" placeholder="Длина груза (м)">
+            <input type="text" name="product-width" placeholder="Ширина груза (м)">
+        </div>
+        <div class="input-parameters-row">
+            <input type="text" name="product-height" placeholder="Высота груза (м)">
+            <input type="text" name="product-mass" placeholder="Масса груза (т)">
+        </div>
+    </div>
+    <input type="text" class="from-delivery-place" name="delivery-place" placeholder="Откуда вести груз">
+    <input type="text" class="to-delivery-place" name="delivery-place" placeholder="Куда вести груз">
+    <div class="input-parameters">
+        <div class="input-parameters-row">
+            <input type="text" class="product-order-number" placeholder="Телефон" name="number">
+            <input type="text" class="product-order-email" placeholder="Почта" name="email">
+        </div>
+    </div>
+    <div class="price-res">
+        <div class="price-container">
+            <label class="product-price-label" for="product-price">Ориентировочная стоимость</label>
+            <input id="product-price" type="text" readonly value="0.00 р.">
+        </div>
+        <div class="nds-container">
+            <label class="nds-check-label" for="nds-check">С НДС</label>
+            <input id="nds-check" type="checkbox">
+            <input class="product-submit-btn" type="submit" value="РАСЧИТАТЬ">
+        </div>
+    </div>
+</form>
+
+</body>
+</html>
