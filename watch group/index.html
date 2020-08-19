@@ -1,0 +1,414 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Главная - Watch Group</title>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/65f48fc481.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+
+<header class="header">
+    <div class="container">
+        <div class="row main-header">
+            <div class="col-lg-3 p-0">
+                <div class="logo">
+                    <a href="https://watch-group.com/ru/" title="Watch Group - Крупнейший интернет-магазин часов, ремешков, браслетов и других комплектующих для часов" rel="home"> Watch Group</a>
+                </div>
+            </div>
+            <div class="col-lg-2 col-xl-3">
+                <form method="post" class="header__find-form">
+                    <input type="text" name="s" class="header__find-form__input" placeholder="Поиск..." autocomplete="off">
+                    <input type="hidden" name="post_type" value="product">
+                    <input type="hidden" name="lang" value="ru">
+                    <button type="submit" class="header__find-form__submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+            </div>
+            <div class="col-lg-7 col-xl-6">
+                <ul class="main-header-nav d-flex justify-content-between">
+                    <li class="main-header-nav__item right-border">
+                        <a href="mailto:support@watch-group.com" title="support@watch-group.com" class="main-header-nav__item__mail">
+                            <i class="far fa-envelope"></i>
+                            <span style="font-weight: 500;"> Contact </span>
+                        </a>
+                    </li>
+
+                    <li class="main-header-nav__item right-border">
+                        <a href="tel:+7(499)113-32-87" title="+7(499)113-32-87"> <i class="fas fa-phone-alt"></i> <span style="font-weight: 500;">+7(499)113-32-87</span> </a>
+                    </li>
+
+                    <li class="main-header-nav__item right-border has-dropdown header-language-dropdown">
+                        <a href="#">
+                            Русский
+                            <i class="image-icon">
+                                <noscript><img src="https://watch-group.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png" alt="Русский"/></noscript>
+                                <img class=" ls-is-cached lazyloaded" src="https://watch-group.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png" data-src="https://watch-group.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png" alt="Русский">
+                            </i>
+                            <i class="fas fa-angle-down"></i>
+                        </a>
+                            <ul class="header-language-dropdown-list">
+                                <li class="header-language-dropdown-list__item">
+                                    <a href="https://watch-group.com/en/" hreflang="en">
+                                        <i class="icon-image">
+                                            <noscript>
+                                                <img src="https://watch-group.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="English"/>
+                                            </noscript>
+                                            <img class=" ls-is-cached lazyloaded" src="https://watch-group.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" data-src="https://watch-group.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/en.png" alt="English"></i> English
+                                    </a>
+                                </li>
+                                <li class="header-language-dropdown-list__item">
+                                    <a href="https://watch-group.com/ru/" hreflang="ru">
+                                        <i class="icon-image">
+                                            <noscript>
+                                                <img src="https://watch-group.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png" alt="Русский"/>
+                                            </noscript>
+                                            <img class=" ls-is-cached lazyloaded" src="https://watch-group.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png" data-src="https://watch-group.com/wp-content/plugins/sitepress-multilingual-cms/res/flags/ru.png" alt="Русский">
+                                        </i> Русский
+                                    </a>
+                                </li>
+                            </ul>
+
+                    </li>
+                    <li class="main-header-nav__item header-shopping-cart">
+                        <a href="https://watch-group.com/ru/cart/" class="header-shopping-cart__text" title="Корзина">
+                            <span class="header-shopping-cart__price">
+                                ₽ 7,9800.00
+                            </span>
+                            <i class="fas fa-shopping-cart header-shopping-cart__icon" data-icon-label="2"></i>
+                        </a>
+
+                        <div class="shopping-cart-dropdown">
+                            <ul class="shopping-cart-list">
+                                <li class="shopping-cart-list-item">
+                                    <a href="#" class="shopping-cart-list__product-description">
+                                        <img src="img/g-shock-10506611-10506611-11582970-247x296.jpg" alt="" class="shopping-cart-list__image">
+                                        Ремень для часов G-Shock 10506611
+                                    </a>
+
+                                    <div class="shopping-cart-list-item__amount-and-price">
+                                        <span style="font-size: .85em;opacity: .6;">1 ×</span>
+                                        <span style="font-size: 0.85em;font-weight: 700;">₽4,290.00</span>
+                                    </div>
+                                    <a href="#" class="shopping-cart-list-item__close-btn" aria-label="Удалить эту позицию">
+                                        ×
+                                    </a>
+
+                                </li>
+
+                                <li class="shopping-cart-list-item">
+                                    <a href="#" class="shopping-cart-list__product-description">
+                                        <img src="img/marc-by-marc-jacobs-mbm1184-marci-medium-ambm1184-8207608-247x296.jpg" alt="" class="shopping-cart-list__image">
+                                            Ремень для часов Marc Jacobs AMBM1184 18.0 мм
+                                    </a>
+                                    <div class="shopping-cart-list-item__amount-and-price">
+                                        <span style="font-size: .85em;opacity: .6;">1 ×</span>
+                                        <span style="font-size: 0.85em;font-weight: 700;">₽3,690.00</span>
+                                    </div>
+
+
+                                    <a href="#" class="shopping-cart-list-item__close-btn" aria-label="Удалить эту позицию">
+                                        ×
+                                    </a>
+                                </li>
+                            </ul>
+                            <p class="shopping-cart-dropdown-sum">
+                                <strong>Подытог:</strong> <span class="result">₽7,980.00</span>
+                            </p>
+                            <a href="https://watch-group.com/ru/cart/" class="shopping-cart-dropdown_show-cart">
+                                Просмотр корзины
+                            </a>
+                            <a href="https://watch-group.com/ru/checkout/" class="shopping-cart-dropdown_order">
+                                Оформление заказа
+                            </a>
+                        </div>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="sub-header-container">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 pl-0">
+                    <ul class="sub-header">
+                        <li class="sub-header__item">
+                            <a href="https://watch-group.com/ru/" class="sub-header__item__link active-sub-header-link">
+                                Главная
+                            </a>
+                        </li>
+                        <li class="sub-header__item">
+                            <a href="https://watch-group.com/ru/shop/" class="sub-header__item__link">
+                                Каталог
+                            </a>
+                        </li>
+                        <li class="sub-header__item">
+                            <a href="https://watch-group.com/product-category/strap/" class="sub-header__item__link">
+                                Бренды ремешков
+                            </a>
+                        </li>
+                        <li class="sub-header__item">
+                            <a href="https://watch-group.com/ru/f-a-q/" class="sub-header__item__link">
+                                F.A.Q
+                            </a>
+                        </li>
+                        <li class="sub-header__item">
+                            <a href="https://watch-group.com/ru/o-nas/" class="sub-header__item__link">
+                                О нас
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-lg-1 ml-auto d-flex align-items-center justify-content-end">
+                    <div class="sub-header-search-container">
+                        <a href="#" class="sub-header__find">
+                            <i class="fas fa-search"></i>
+                        </a>
+                        <div class="header-search-dropdown">
+                            <form method="post" class="header__find-form">
+                                <input type="text" name="s" class="header__find-form__input" placeholder="Поиск..." autocomplete="off">
+                                <input type="hidden" name="post_type" value="product">
+                                <input type="hidden" name="lang" value="ru">
+                                <button type="submit" class="header__find-form__submit">
+                                    <i class="fas fa-search"></i>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<main>
+    <section class="main-page__main-carousel-section">
+        <div class="owl-carousel owl-theme main-page-main-carousel-section">
+            <div class="main-page__main-carousel__item">
+                <h2 class="main-page__main-carousel__item__title">
+                    Watch Group
+                </h2>
+                <p class="main-page__main-carousel__item__text">
+                    Безграничный Мир ремешков для часов
+                </p>
+                <a href="https://watch-group.com/ru/product-category/strap/" class="main-page__main-carousel__item__link">
+                    Бренды
+                    <i class="far fa-clock"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="main-page-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center p-5">
+                    <a href="#" class="main-find-button">
+                        Найти ремешок
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row my-5">
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme main-page-carousel">
+                        <a href="#" class="main-page-brands-carousel__item">
+                            <img src="img/armani.jpg" alt="">
+                            <div class="main-page-brands-carousel__item__brand-name">
+                                <h3>armani exchange</h3>
+                                1234 товары
+                            </div>
+                        </a>
+                        <a href="#" class="main-page-brands-carousel__item">
+                            <img src="img/casio.png" alt="">
+                            <div class="main-page-brands-carousel__item__brand-name">
+                                <h3>casio</h3>
+                                1234 товары
+                            </div>
+                        </a>
+                        <a href="#" class="main-page-brands-carousel__item">
+                            <img src="img/bering.jpg" alt="">
+                            <div class="main-page-brands-carousel__item__brand-name">
+                                <h3>bering</h3>
+                                1234 товары
+                            </div>
+                        </a>
+                        <a href="#" class="main-page-brands-carousel__item">
+                            <img src="img/boccia.png" alt="">
+                            <div class="main-page-brands-carousel__item__brand-name">
+                                <h3>boccia</h3>
+                                1234 товары
+                            </div>
+                        </a>
+                        <a href="#" class="main-page-brands-carousel__item">
+                            <img src="img/citizen.jpg" alt="">
+                            <div class="main-page-brands-carousel__item__brand-name">
+                                <h3>citizen</h3>
+                                1234 товары
+                            </div>
+                        </a>
+                        <a href="#" class="main-page-brands-carousel__item">
+                            <img src="img/danish.jpg" alt="">
+                            <div class="main-page-brands-carousel__item__brand-name">
+                                <h3>danish design</h3>
+                                1234 товары
+                            </div>
+                        </a>
+                        <a href="#" class="main-page-brands-carousel__item">
+                            <img src="img/festina.jpg" alt="">
+                            <div class="main-page-brands-carousel__item__brand-name">
+                                <h3>festina</h3>
+                                1234 товары
+                            </div>
+                        </a>
+                        <a href="#" class="main-page-brands-carousel__item">
+                            <img src="img/fossil.jpg" alt="">
+                            <div class="main-page-brands-carousel__item__brand-name">
+                                <h3>fossil</h3>
+                                1234 товары
+                            </div>
+                        </a>
+                        <a href="#" class="main-page-brands-carousel__item">
+                            <img src="img/dkny.jpg" alt="">
+                            <div class="main-page-brands-carousel__item__brand-name">
+                                <h3>dkny</h3>
+                                1234 товары
+                            </div>
+                        </a>
+                        <a href="#" class="main-page-brands-carousel__item">
+                            <img src="img/g-shock.png" alt="">
+                            <div class="main-page-brands-carousel__item__brand-name">
+                                <h3>g-shock</h3>
+                                1234 товары
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="https://watch-group.com/ru/help-strap/" class="main-find-button">
+                        Не нашли ремешок
+                        <i class="fas fa-search"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="row mt-5 mb-6">
+                <div class="col-12">
+                    <div class="owl-carousel owl-theme main-page-carousel">
+                        <a href="#" class="main-page-products-carousel__item">
+                            <div class="main-page-products-carousel-image-container">
+                                <img src="img/download.jpg">
+                                <!-- Use if product is out of stock -->
+                                <span class="out-of-stock">
+
+                                </span>
+                                <!-- -->
+                            </div>
+                            <div class="main-page-products-carousel__product-name">
+                                <span class="product-brand"></span>
+                                <h3 class="product-name"></h3>
+                                <span class="product-price"></span>
+                                <a href="#" class="product-more-information"></a>
+                            </div>
+                        </a>
+
+                        <a href="#" class="main-page-products-carousel__item">
+                            <div class="main-page-products-carousel-image-container">
+                                <img src="img/">
+                                <span class="out-of-stock">
+
+                                </span>
+                            </div>
+                            <div class="main-page-products-carousel__product-name">
+                                <span class="product-brand"></span>
+                                <h3 class="product-name"></h3>
+                                <span class="product-price"></span>
+                                <a href="#" class="product-more-information"></a>
+                            </div>
+                        </a>
+
+                        <a href="#" class="main-page-products-carousel__item">
+                            <div class="main-page-products-carousel-image-container">
+                                <img src="img/">
+                                <span class="out-of-stock">
+
+                                </span>
+                            </div>
+                            <div class="main-page-products-carousel__product-name">
+                                <span class="product-brand"></span>
+                                <h3 class="product-name"></h3>
+                                <span class="product-price"></span>
+                                <a href="#" class="product-more-information"></a>
+                            </div>
+                        </a>
+
+                        <a href="#" class="main-page-products-carousel__item">
+                            <div class="main-page-products-carousel-image-container">
+                                <img src="img/">
+                                <span class="out-of-stock">
+
+                                </span>
+                            </div>
+                            <div class="main-page-products-carousel__product-name">
+                                <span class="product-brand"></span>
+                                <h3 class="product-name"></h3>
+                                <span class="product-price"></span>
+                                <a href="#" class="product-more-information"></a>
+                            </div>
+                        </a>
+
+                        <a href="#" class="main-page-products-carousel__item">
+                            <div class="main-page-products-carousel-image-container">
+                                <img src="img/">
+                                <span class="out-of-stock">
+
+                                </span>
+                            </div>
+                            <div class="main-page-products-carousel__product-name">
+                                <span class="product-brand"></span>
+                                <h3 class="product-name"></h3>
+                                <span class="product-price"></span>
+                                <a href="#" class="product-more-information"></a>
+                            </div>
+                        </a>
+
+                        <a href="#" class="main-page-products-carousel__item">
+                            <div class="main-page-products-carousel-image-container">
+                                <img src="img/">
+                                <span class="out-of-stock">
+
+                                </span>
+                            </div>
+                            <div class="main-page-products-carousel__product-name">
+                                <span class="product-brand"></span>
+                                <h3 class="product-name"></h3>
+                                <span class="product-price"></span>
+                                <a href="#" class="product-more-information"></a>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</main>
+
+
+<script src="js/jquery-3.5.1.min.js"></script>
+<script src="js/owl.carousel.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>
