@@ -21,9 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="9d5b08ad-19c7-42c0-ae74-f3c35d8e8147" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-layout/form-bg.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-layout/form.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/form-layout/form.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/watch group/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/watch group/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watch group/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/watch group/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +97,7 @@
       <workItem from="1597269228084" duration="5212000" />
       <workItem from="1597593967641" duration="2020000" />
       <workItem from="1597596278168" duration="4000" />
-      <workItem from="1597612712750" duration="25127000" />
+      <workItem from="1597612712750" duration="27838000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1596039452211</created>

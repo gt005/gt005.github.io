@@ -25,6 +25,10 @@ ul, li {
   list-style: none;
 }
 
+button:focus, button:active {
+  outline: none;
+}
+
 a, a:hover {
   text-decoration: none;
   color: inherit;
@@ -450,7 +454,7 @@ a, a:hover {
 .main-page-carousel .owl-nav button {
   position: absolute;
   height: 105%;
-  background-color: rgba(0,0,0,0.5) !important;
+  background-color: rgba(0,0,0,0.4) !important;
   top: -2.5%;
   opacity: 0;
   transition: 0.3s;
@@ -461,7 +465,7 @@ a, a:hover {
 }
 
 .main-page-carousel .owl-nav button:hover {
-  background-color: rgba(0,0,0,0.7) !important;
+  background-color: rgba(0,0,0,0.6) !important;
   color: #446084 !important;
 }
 
@@ -509,4 +513,55 @@ a, a:hover {
   letter-spacing: .05em;
   font-size: 1em;
   font-weight: 700;
+}
+
+.main-page-products-carousel__item {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-page-products-carousel-image-container {
+  transition: 0.4s;
+}
+
+.main-page-products-carousel-image-container:hover {
+  transform: translateY(-3%);
+}
+
+.main-page-products-carousel-image-container .out-of-stock {
+  text-transform: uppercase;
+  color: #333;
+  font-weight: 600;
+  position: absolute;
+  top: 40%;
+  left: 0;
+  right: 0;
+  padding: 20px 0;
+  background: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  opacity: 0.9;
+}
+
+.main-page-products-carousel-image-container .fast-view-label {
+  transition: 0.4s;
+  color: white;
+  font-weight: 500;
+  font-size: 0.9em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  padding: 2px 0;
+  background: #446084;
+  text-transform: uppercase;
+  text-align: center;
+  transform: translateY(100%);
+}
+
+.main-page-products-carousel-image-container .fast-view-label:hover {
+  background: #384e6c;
+}
+
+.main-page-products-carousel__item:hover .fast-view-label {
+  transform: translateY(0);
 }
