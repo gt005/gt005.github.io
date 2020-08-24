@@ -97,8 +97,8 @@
       <workItem from="1597269228084" duration="5212000" />
       <workItem from="1597593967641" duration="2020000" />
       <workItem from="1597596278168" duration="4000" />
-      <workItem from="1597612712750" duration="28458000" />
-      <workItem from="1598214793179" duration="1507000" />
+      <workItem from="1597612712750" duration="27838000" />
+      <workItem from="1598295090140" duration="1904000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1596039452211</created>
@@ -149,43 +149,34 @@
       <option name="project" value="LOCAL" />
       <updated>1597053010974</updated>
     </task>
-    <task id="LOCAL-00008" summary="Карусель на главном экране добавил в watch group">
-      <created>1597934510635</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1597934510635</updated>
-    </task>
-    <option name="localTasksCounter" value="9" />
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="2" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
-    <MESSAGE value="Карусель на главном экране добавил в watch group" />
-    <option name="LAST_COMMIT_MESSAGE" value="Карусель на главном экране добавил в watch group" />
+    <option name="LAST_COMMIT_MESSAGE" value="test" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1597934510496">
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1597053010736">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900/-525.-1440.2560.1440@0.0.1440.900" timestamp="1597934510496" />
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900/-525.-1440.2560.1440@0.0.1440.900" timestamp="1596446471342" />
     <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597053010736" />
     <state x="431" y="173" key="MultipleFileMergeDialog" timestamp="1596446363398">
       <screen x="0" y="0" width="1440" height="900" />
@@ -200,10 +191,10 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="474" y="173" key="VCS.ChangeListViewerDialog/0.0.1440.900@0.0.1440.900" timestamp="1596203912484" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1597934511941">
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1597053013533">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-525.-1440.2560.1440@0.0.1440.900" timestamp="1597934511941" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900/-525.-1440.2560.1440@0.0.1440.900" timestamp="1596446476197" />
     <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1597053013533" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1596446354324">
       <screen x="0" y="0" width="1440" height="900" />
