@@ -625,8 +625,65 @@ a, a:hover {
   color: white;
 }
 
-.footer-language-choose-container current-language {
+.footer {
+  border-top: 1px solid rgba(0,0,0,.05);
+}
+
+.footer-language-choose-container .current-language, .footer__language-element .possible-language {
   cursor: pointer;
   border: 1px solid #cdcdcd;
   border-radius: 0;
+  padding-left: 10px;
+  position: relative;
+  margin-top: 30px;
+  transition: 0.4s;
+}
+
+.footer-language-choose-container .current-language:hover, .footer__language-element .possible-language:hover {
+  background: #d9d9d9;
+}
+
+.footer-language-choose-container .current-language i {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.footer-language-choose-container__label {
+  padding-left: 5px;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.footer__languages-list {
+  position: absolute;
+  left: -9999px;
+  opacity: 0;
+  width: 100%;
+  transition: 0.4s;
+}
+
+.footer__language-element {
+  position: relative;
+}
+
+.footer__language-element .possible-language {
+  margin: 0;
+}
+
+.footer-language-choose-container:hover .footer__languages-list {
+  position: relative;
+  left: auto;
+  opacity: 1;
+}
+
+.footer-recently-watched-label {
+  margin: 30px 0;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-weight: 600;
+  color: #777;
+  line-height: 1.35;
+  letter-spacing: .08em;
 }
