@@ -22,5 +22,8 @@ $(document).ready(function () {
             }
         }
     })
-
 });
+
+document.querySelector('.sub-header-container').onclick = function () {
+    this.style.transform = "translateX(-110%)"
+}

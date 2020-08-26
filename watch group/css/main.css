@@ -99,6 +99,11 @@ a, a:hover {
   position: absolute;
   right: 0;
   top: 0;
+  transition: 0.2s;
+}
+
+.header__find-form__submit:hover {
+  box-shadow: inset 0 0 0 100px rgba(0,0,0,.2);
 }
 
 .header__find-form__submit i {
@@ -752,6 +757,35 @@ a, a:hover {
 
 
 @media (max-width: 991px) {
+  .sub-header-container {
+    background: rgba(255,255,255,.95);
+    position: fixed;
+    z-index: 9998;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    transition: 0.2s;
+  }
+  
+  .header-shopping-cart__price, .header-language-dropdown, .header-number, .header-mail {
+    display: none;
+  }
+
+  .header__find-form {
+    position: absolute;
+  }
+
+  .sub-header {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    z-index: 9999;
+  }
+
+  .sub-header__item__link {
+    color: rgba(102,102,102,.85);
+  }
+
   .main-page-carousel .owl-nav button {
     background-color: transparent !important;
     opacity: 1;
