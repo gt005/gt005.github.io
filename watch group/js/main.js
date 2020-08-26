@@ -24,6 +24,23 @@ $(document).ready(function () {
     })
 });
 
-document.querySelector('.sub-header-container').onclick = function () {
-    this.style.transform = "translateX(-110%)"
+document.querySelector('.close-mobile-header-btn').onclick = function () {
+    let subHeader = document.querySelector('.sub-header'),
+        subHeaderContainer = document.querySelector('.sub-header-container');
+
+    subHeader.style.transform = "translateX(-110%)";
+    subHeaderContainer.style.opacity = '0';
+    setTimeout(function () {
+        subHeaderContainer.style.left = '-150%';
+    }, 200)
 }
+
+document.querySelector('.open-mobile-menu-btn').onclick = function () {
+    let subHeader = document.querySelector('.sub-header'),
+        subHeaderContainer = document.querySelector('.sub-header-container');
+
+    subHeaderContainer.style.left = '0';
+    subHeaderContainer.style.opacity = '1';
+    subHeader.style.transform = "translateX(0%)";
+}
+

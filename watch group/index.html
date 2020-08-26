@@ -22,12 +22,17 @@
 <header class="header">
     <div class="container">
         <div class="row main-header">
-            <div class="col-lg-3 p-0">
+            <div class="col-2">
+                <div class="open-mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </div>
+            <div class="col-lg-3 col-8 p-0">
                 <div class="logo">
                     <a href="https://watch-group.com/ru/" title="Watch Group - Крупнейший интернет-магазин часов, ремешков, браслетов и других комплектующих для часов" rel="home"> Watch Group</a>
                 </div>
             </div>
-            <div class="col-lg-2 col-xl-3">
+            <div class="col-lg-2 col-xl-3 main-header__find-form">
                 <form method="post" class="header__find-form">
                     <input type="text" name="s" class="header__find-form__input" placeholder="Поиск..." autocomplete="off">
                     <input type="hidden" name="post_type" value="product">
@@ -37,7 +42,7 @@
                     </button>
                 </form>
             </div>
-            <div class="col-lg-7 col-xl-6">
+            <div class="col-lg-7 col-2 col-xl-6">
                 <ul class="main-header-nav d-flex justify-content-between">
                     <li class="main-header-nav__item right-border header-mail">
                         <a href="mailto:support@watch-group.com" title="support@watch-group.com" class="main-header-nav__item__mail">
@@ -142,10 +147,10 @@
 
     </div>
     <div class="sub-header-container">
-        <div class="container">
+        <div class="container sub-header">
             <div class="row">
-                <div class="col-lg-6 pl-0">
-                    <ul class="sub-header">
+                <div class="col-lg-6 p-0 order-lg-0 order-1">
+                    <ul class="sub-header-links">
                         <li class="sub-header__item">
                             <a href="https://watch-group.com/ru/" class="sub-header__item__link active-sub-header-link">
                                 Главная
@@ -171,9 +176,15 @@
                                 О нас
                             </a>
                         </li>
+                        <li class="sub-header__item sub-header-login-link">
+                            <a href="https://watch-group.com/ru/o-nas/" class="sub-header__item__link">
+                                Авторизация
+                            </a>
+                        </li>
                     </ul>
                 </div>
-                <div class="col-lg-1 ml-auto d-flex align-items-center justify-content-end">
+
+                <div class="col-lg-1 order-lg-1 order-0 ml-auto d-flex align-items-center justify-content-lg-end justify-content-center">
                     <div class="sub-header-search-container">
                         <a href="#" class="sub-header__find">
                             <i class="fas fa-search"></i>
@@ -192,6 +203,9 @@
 
                 </div>
             </div>
+        </div>
+        <div class="close-mobile-header-btn">
+            <i class="fas fa-times fa-2x"></i>
         </div>
     </div>
 </header>
@@ -372,7 +386,7 @@
                         <div href="#" class="main-page-products-carousel__item">
                             <a href="#" class="main-page-products-carousel-image-container">
                                 <img src="img/download-3.jpg">
-                                <span data-card_image="img/download-3.jpg" data-card_product-name="Ремень для часов Hamilton H600.326.100 Jazzmaster" class="fast-view-label">
+                                <span data-card_image="ifmg/download-3.jpg" data-card_product-name="Ремень для часов Hamilton H600.326.100 Jazzmaster" class="fast-view-label">
                                     Быстрый просмотр
                                 </span>
                             </a>
