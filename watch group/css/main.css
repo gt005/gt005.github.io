@@ -37,7 +37,7 @@ a, a:hover {
 .main-find-button {
   background-color: #fff !important;
   color: #666 !important;
-  padding: 0.7em 1.4em;
+  padding: 0.7em 1em;
   margin: 40px 0;
   font-size: 20px;
   font-weight: 700;
@@ -59,6 +59,10 @@ a, a:hover {
   display: flex;
   align-items: center;
   background: white;
+}
+
+.open-mobile-menu-btn-continer {
+  display: none;
 }
 
 .open-mobile-menu-btn {
@@ -144,7 +148,7 @@ a, a:hover {
 
 .right-border {
   border-right: 1px solid rgba(0,0,0,.1);
-  padding-right: 8px;
+  padding-right: 15px;
 }
 
 
@@ -800,13 +804,16 @@ a, a:hover {
 
 
 @media (max-width: 991px) {
+  .open-mobile-menu-btn-continer {
+    display: block;
+  }
+
   .open-mobile-menu-btn {
     display: flex;
   }
 
   .logo a {
     text-align: center;
-    font-size: 20px !important;
   }
 
   .main-header {
@@ -898,6 +905,31 @@ a, a:hover {
     display: block;
   }
 
+  .shopping-cart-dropdown-container {
+    background: rgba(255, 255, 255, 0.5);
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    z-index: 9997;
+    left: 0;
+    top: 0;
+  }
+
+  .shopping-cart-dropdown {
+    background: rgba(255,255,255,.95);
+    left: auto;
+    top: 0;
+    right: -15px;
+    opacity: 1;
+    height: 100%;
+    min-height: 100vh;
+    position: fixed;
+    width: 33%;
+    min-width: 220px;
+    z-index: 9998;
+    border: 0;
+  }
+
   .main-page-carousel .owl-nav button {
     background-color: transparent !important;
     opacity: 1;
@@ -922,5 +954,9 @@ a, a:hover {
 @media (max-width: 575px) {
   .sub-header-search-container .header-search-dropdown .header__find-form__input::placeholder {
     font-size: 12px;
+  }
+
+  .logo a {
+    font-size: 20px !important;
   }
 }
