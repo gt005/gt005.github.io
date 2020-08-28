@@ -20,10 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d5b08ad-19c7-42c0-ae74-f3c35d8e8147" name="Default Changelist" comment="Сделал выезжающее окно header">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/watch group/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/watch group/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/watch group/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/watch group/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/watch group/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/watch group/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +107,7 @@
       <workItem from="1598295090140" duration="1904000" />
       <workItem from="1598377601281" duration="143000" />
       <workItem from="1598561488242" duration="4441000" />
+      <workItem from="1598610460650" duration="883000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1596039452211</created>
