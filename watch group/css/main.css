@@ -41,9 +41,10 @@ a, a:hover {
   align-items: center !important;
   height: 34px !important;
   width: 34px !important;
-  border: 2px solid currentColor;
+  border: 2px solid silver;
   border-radius: 50%;
   transition: 0.4s;
+  color: silver;
 }
 
 .is-outlined-circle:hover {
@@ -932,6 +933,10 @@ a, a:hover {
   border: 2px solid white;
 }
 
+.object-card-description__title {
+  color: #555555;
+}
+
 .object-card-description__price {
   font-weight: 700;
   color: #111;
@@ -1088,6 +1093,37 @@ a, a:hover {
   font-size: 20px;
   padding: 15px 0 0 0;
   letter-spacing: 0.5px;
+}
+
+.object-card__top-navigation-buttons__image {
+  left: -9999px;
+  position: absolute;
+  opacity: 0;
+  transition: 0.4s;
+  height: 100px;
+  width: 100px;
+  transform: translateY(90%);
+}
+
+.object-card__top-navigation-buttons:hover .object-card__top-navigation-buttons__image {
+  opacity: 1;
+  left: auto;
+}
+
+.object-card__not-found-link {
+  color: #334862;
+  font-size: 14px;
+}
+
+.object-card__products-category {
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0.9;
+  margin-top: 25px;
+}
+
+.object-card__products-category .mini-line {
+  margin: 5px auto;
 }
 
 @media (max-width: 991px) {
@@ -1260,6 +1296,10 @@ a, a:hover {
 
   .object-card-main-container__social-networks__telephone {
     display: flex !important;
+  }
+
+  .object-card__products__find-form, .object-card__not-found-link, .object-card__products-category {
+    display: none;
   }
 
   .footer-recently-watched-label {

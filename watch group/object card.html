@@ -246,13 +246,15 @@
                     <p class="object-card-description__price">₽ 2,290.00</p>
                 </div>
 
-                <form action="" class="object-card__find-out">
-                    <p>Имя</p>
-                    <input type="text" name="name">
-                    <p>Email</p>
-                    <input type="text" name="email">
-                    <input type="submit" class="object-card__find-out__submit" value="Узнать о поступлении">
-                </form>
+<!--                <form action="" class="object-card__find-out">-->
+<!--                    <p>Имя</p>-->
+<!--                    <input type="text" name="name">-->
+<!--                    <p>Email</p>-->
+<!--                    <input type="text" name="email">-->
+<!--                    <input type="submit" class="object-card__find-out__submit" value="Узнать о поступлении">-->
+<!--                </form>-->
+
+                
 
                 <ul class="marks">
                     <li class="mark-item">
@@ -282,12 +284,38 @@
                 </div>
             </div>
             <div class="col-lg-2 col-12 order-1 order-lg-last">
-                <a href="#" class="is-outlined-circle">
-                    <i class="fas fa-angle-right"></i>
+                <hr class="mini-line d-lg-none">
+                <div class="d-flex mb-5">
+                    <a href="#" class="is-outlined-circle object-card__top-navigation-buttons position-relative ml-lg-auto">
+                        <i class="fas fa-angle-left"></i>
+                        <img src="img/g-shock-10506611-10506611-11582970-247x296.jpg" alt="" class="object-card__top-navigation-buttons__image">
+                    </a>
+                    <a href="#" class="is-outlined-circle ml-1 position-relative object-card__top-navigation-buttons">
+                        <i class="fas fa-angle-right"></i>
+                        <img src="img/marc-by-marc-jacobs-mbm1184-marci-medium-ambm1184-8207608-247x296.jpg" alt="" class="object-card__top-navigation-buttons__image">
+                    </a>
+                </div>
+
+                <form method="post" class="header__find-form mb-4 object-card__products__find-form">
+                    <input type="text" name="s" class="header__find-form__input" placeholder="Поиск..." autocomplete="off">
+                    <input type="hidden" name="post_type" value="product">
+                    <input type="hidden" name="lang" value="ru">
+                    <button type="submit" class="header__find-form__submit">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </form>
+                <a href="https://watch-group.com/ru/help-strap/" class="object-card__not-found-link">
+                    Не нашел товар
                 </a>
-                <a href="#" class="is-outlined-circle">
-                    <i class="fas fa-angle-left"></i>
-                </a>
+
+                <div class="object-card__products-category">
+                    КАТЕГОРИИ ТОВАРОВ
+                    <hr class="mini-line">
+                    <ul>
+
+                    </ul>
+                </div>
+
             </div>
         </div>
     </div>
