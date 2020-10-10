@@ -1147,7 +1147,7 @@ a, a:hover {
   width: 25px;
   height: 40px;
   padding: 0;
-  border: 0;
+  border-radius: 0;
   font-weight: 400;
   color: #555;
   text-shadow: 1px 1px 1px #fff;
@@ -1328,6 +1328,7 @@ a, a:hover {
 
   .object-card-photo img {
     height: auto;
+    height: intrinsic;
     width: 100%;
   }
 
