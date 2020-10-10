@@ -1304,6 +1304,7 @@ a, a:hover {
     border: 0;
     transition: 0.2s;
     transform: translateX(110%);
+    margin-right: 10px;
   }
 
   .header-shopping-cart__text {
