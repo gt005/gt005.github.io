@@ -1099,7 +1099,7 @@ a, a:hover {
   left: -9999px;
   position: absolute;
   opacity: 0;
-  transition: 0.4s;
+  transition: opacity 0.4s;
   height: 100px;
   width: 100px;
   transform: translateY(90%);
@@ -1108,6 +1108,9 @@ a, a:hover {
 .object-card__top-navigation-buttons:hover .object-card__top-navigation-buttons__image {
   opacity: 1;
   left: auto;
+  z-index: 9999;
+  height: auto;
+  border: 2px solid #ddd;
 }
 
 .object-card__not-found-link {

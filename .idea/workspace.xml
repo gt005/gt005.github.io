@@ -22,7 +22,6 @@
     <list default="true" id="9d5b08ad-19c7-42c0-ae74-f3c35d8e8147" name="Default Changelist" comment="Сделал выезжающее окно header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/watch group/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/watch group/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/watch group/object card.html" beforeDir="false" afterPath="$PROJECT_DIR$/watch group/object card.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -119,7 +118,7 @@
       <workItem from="1600261638613" duration="2194000" />
       <workItem from="1602169855009" duration="5000" />
       <workItem from="1602169878448" duration="5000" />
-      <workItem from="1602338413890" duration="2522000" />
+      <workItem from="1602338413890" duration="2741000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1596039452211</created>
