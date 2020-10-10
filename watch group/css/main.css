@@ -537,6 +537,7 @@ a, a:hover {
   padding: 10px;
   display: flex;
   opacity: 0;
+  display: none;
   justify-content: flex-end;
   align-items: flex-start;
   color: rgba(255, 255, 255, 0.5);
@@ -1167,6 +1168,10 @@ a, a:hover {
 
 
 @media (max-width: 991px) {
+  .close-mobile-header-btn {
+    display: flex;
+  }
+
   .open-mobile-menu-btn-continer {
     display: block;
   }
