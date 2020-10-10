@@ -98,7 +98,7 @@
                         <div class="shopping-cart-dropdown-container">
                             <i class="fas fa-times fa-2x shopping-cart-dropdown__close-btn"></i>
 
-                            <div class="shopping-cart-dropdown">
+                            <div class="shopping-cart-dropdown" style="cursor: initial;">
                                 <h3 class="shopping-cart-dropdown__mobile-label">КОРЗИНА</h3>
                                 <!-- Использовать при пустой корзине
 
@@ -246,6 +246,7 @@
                     <p class="object-card-description__price">₽ 2,290.00</p>
                 </div>
 
+<!--                Если нет в наличии-->
 <!--                <form action="" class="object-card__find-out">-->
 <!--                    <p>Имя</p>-->
 <!--                    <input type="text" name="name">-->
@@ -253,6 +254,13 @@
 <!--                    <input type="text" name="email">-->
 <!--                    <input type="submit" class="object-card__find-out__submit" value="Узнать о поступлении">-->
 <!--                </form>-->
+
+                <form action="" class="d-flex">
+                    <input type="button" value="-" id="subtract_amount_object_card">
+                    <input type="number" id="amount_object_card" value="1">
+                    <input type="button" value="+" id="add_amount_object_card" class="mr-3">
+                    <input type="submit" class="object-card__find-out__submit" value="В корзину">
+                </form>
 
                 
 

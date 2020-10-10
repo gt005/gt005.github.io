@@ -48,8 +48,11 @@ document.querySelector('.close-mobile-header-btn').onclick = function () {
 }
 
 
-
+let shoppingCartDropdownMobileOpened = 0;
 document.querySelector('.header-shopping-cart').onclick = function () {
+    if (shoppingCartDropdownMobileOpened !== 0) {
+        return
+    }
     let shoppingCartDropdown = document.querySelector('.shopping-cart-dropdown'),
         shoppingCartDropdownContainer = document.querySelector('.shopping-cart-dropdown-container');
 
@@ -57,16 +60,32 @@ document.querySelector('.header-shopping-cart').onclick = function () {
     shoppingCartDropdownContainer.style.opacity = '1';
     shoppingCartDropdown.style.transform = "translateX(0%)";
     document.querySelector('.shopping-cart-dropdown__close-btn').style.left = '15px';
+    shoppingCartDropdownMobileOpened = 1;
 }
 
+
 document.querySelector('.shopping-cart-dropdown-container').onclick = function () {
+    if (shoppingCartDropdownMobileOpened !== 1) {
+        return
+    }
+
     let shoppingCartDropdown = document.querySelector('.shopping-cart-dropdown');
 
     shoppingCartDropdown.style.transform = "";
     this.style.opacity = '0';
     document.querySelector('.shopping-cart-dropdown__close-btn').style.left = '-9999px';
+    document.querySelector(".shopping-cart-dropdown-container").style.left='-9999px';
     setTimeout(function () {
-        this.style.left = '-150%';
+        shoppingCartDropdownMobileOpened = 0;
     }, 200)
+}
 
+document.querySelector("#add_amount_object_card").onclick = function () {
+    document.querySelector("#amount_object_card").value++;
+}
+
+document.querySelector("#subtract_amount_object_card").onclick = function () {
+    if (document.querySelector("#amount_object_card").value > 1){
+        document.querySelector("#amount_object_card").value--;
+    }
 }
