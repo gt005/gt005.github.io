@@ -1,5 +1,5 @@
 # gt005.github.io
-<meta name="yandex-verification" content="62d9068c791b0bb9" /> .
+<meta name="yandex-verification" content="62d9068c791b0bb9" />
 <h2>По Figma шаблонам:</h2> 
 Адаптивный сайт для студии дизайна <a href="https://gt005.github.io/gravity/">gravity</a>. <a href="https://gt005.github.io/gravity/Gravity.fig">Скачать макет</a>. <br> <br>
 
@@ -13,4 +13,5 @@
 
 Адаптивная bootstrap 4 верстка сайта компании <a href="http://gt005.github.io/tinyone/">tinyone</a>, которая разрабатывает приложения. <a href="http://gt005.github.io/tinyone/tinyone.psd">Скачать</a> PSD макет этого сайта.
 
-
+<h2>Какие-то примеры частей верстки</h2> 
+Минималистичные <a href="https://gt005.github.io/mini%20widgets/about%20card%20with%20shift.html">карточки</a> для описания. 
