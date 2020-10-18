@@ -1,0 +1,76 @@
+$main-color: #e64b3d;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-weight: inherit;
+  font-size: inherit;
+  font-family: Geometria;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  width: 200px;
+  height: 200px;
+  position: relative;
+  margin: 0 50px;
+  border-radius: 10px;
+  
+  .fg-face {
+    background: $main-color;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    i {
+      width: 100%;
+      height: 100%;
+      font-size: 90px;
+    }
+  }
+
+  .bg-face {
+    background: #ffffff;
+    z-index: -1;
+    font-size: 12px;
+    box-shadow: 0 0 30px 0 #eee;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content {
+      padding: 0px 20px;
+      text-align: center;
+    }
+    h3 {
+      font-size: 16px;
+      font-weight: 600;
+      padding-bottom: 10px;
+    }
+    p {
+      font-weight: 400;
+    }
+  }
+
+  .fg-face, .bg-face {
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    transition: 0.3s;
+  }
+
+  &:hover .fg-face {
+    transform: translate(-25%, -40%);
+  }
+
+  &:hover .bg-face {
+    transform: translate(25%, 40%);
+  }
+}
+

@@ -21,8 +21,6 @@
   <component name="ChangeListManager">
     <list default="true" id="9d5b08ad-19c7-42c0-ae74-f3c35d8e8147" name="Default Changelist" comment="Сделал выезжающее окно header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/watch group/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/watch group/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/watch group/object card.html" beforeDir="false" afterPath="$PROJECT_DIR$/watch group/object card.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,9 +30,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="CSS File" />
         <option value="JavaScript File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -54,13 +52,14 @@
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="watcher.settings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -119,7 +118,8 @@
       <workItem from="1600261638613" duration="2194000" />
       <workItem from="1602169855009" duration="5000" />
       <workItem from="1602169878448" duration="5000" />
-      <workItem from="1602338413890" duration="3233000" />
+      <workItem from="1602338413890" duration="3297000" />
+      <workItem from="1603057174853" duration="2534000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1596039452211</created>
@@ -225,11 +225,19 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1373" y="359" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598451547025" />
+    <state x="355" y="224" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1603057598691">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="355" y="224" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1440.900/550.-1440.2560.1440@0.0.1440.900" timestamp="1603057598691" />
     <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1597053010736">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900/-525.-1440.2560.1440@0.0.1440.900" timestamp="1596446471342" />
     <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1597053010736" />
+    <state x="288" y="150" width="854" height="653" key="EditFileWatcherDialog" timestamp="1603057940318">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="288" y="150" width="854" height="653" key="EditFileWatcherDialog/0.0.1440.900/550.-1440.2560.1440@0.0.1440.900" timestamp="1603057940318" />
     <state width="1884" height="163" key="GridCell.Tab.0.bottom" timestamp="1598475064261">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -299,10 +307,11 @@
     </state>
     <state x="431" y="173" key="MultipleFileMergeDialog/0.0.1440.900/-525.-1440.2560.1440@0.0.1440.900" timestamp="1596446363398" />
     <state x="431" y="173" key="MultipleFileMergeDialog/0.0.1440.900@0.0.1440.900" timestamp="1596203923045" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1596376434890">
+    <state x="221" y="89" key="SettingsEditor" timestamp="1603057959105">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900/-525.-1440.2560.1440@0.0.1440.900" timestamp="1596376434890" />
+    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/550.-1440.2560.1440@0.0.1440.900" timestamp="1603057959105" />
     <state x="474" y="173" key="VCS.ChangeListViewerDialog" timestamp="1596203912484">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
