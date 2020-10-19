@@ -72,13 +72,15 @@ main {
 }
 .card:hover .fg-face,
 .card .fg-face:hover,
-.card .fg-face:hover {
-  transform: translate(-25%, -40%);
+.card .fg-face:focus,
+.card .fg-face:active {
+  transform: translate(-25%, -43%);
 }
 .card:hover .bg-face,
 .card .bg-face:hover,
-.card .bg-face:hover {
-  transform: translate(25%, 40%);
+.card .bg-face:focus,
+.card .bg-face:active {
+  transform: translate(25%, 43%);
 }
 
 /*# sourceMappingURL=about_card_with_shift.css.map */

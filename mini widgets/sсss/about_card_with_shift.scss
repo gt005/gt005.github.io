@@ -75,14 +75,16 @@ main {
 
   &:hover .fg-face,
   .fg-face:hover,
-  .fg-face:hover {
-    transform: translate(-25%, -40%);
+  .fg-face:focus,
+  .fg-face:active {
+    transform: translate(-25%, -43%);
   }
 
   &:hover .bg-face,
   .bg-face:hover,
-  .bg-face:hover {
-    transform: translate(25%, 40%);
+  .bg-face:focus,
+  .bg-face:active {
+    transform: translate(25%, 43%);
   }
 }
 
