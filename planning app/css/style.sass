@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap')
+
+*
+  outline: none
 
 body
   font-family: Quicksand
@@ -11,7 +16,7 @@ a
   text-decoration: none
 
 p
-  font-family: Roboto
+  font-family: 'Roboto'
   font-size: 15px
   color: #8D96BD
   line-height: 27px
@@ -40,7 +45,7 @@ h4
   font-size: 24px
 
 h5
-  font-family: Roboto
+  font-family: 'Roboto'
   font-size: 10px
   font-style: normal
   font-weight: 500
@@ -50,6 +55,21 @@ h5
   color: #3D4F9F
   padding: 0 0 16px
   margin: 0
+
+.standard-button
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 43px
+  width: 113px
+  background: #D2E1FF
+  color: #3A79FF
+  font-weight: 700
+  border-radius: 2px
+  transition: .3s
+  font-size: 13px
+  &:hover
+    background: #becbe7
 
 // Header
 header
@@ -83,7 +103,6 @@ header
     line-height: 15px
     font-style: normal
     letter-spacing: 0.05em
-
     &:hover
       color: #5E81FE
 
@@ -101,21 +120,6 @@ header
     &:hover svg path
       fill: #6188FF
 
-
-.header__support-buttons__get-started
-  display: flex
-  align-items: center
-  justify-content: center
-  height: 43px
-  width: 113px
-  background: #D2E1FF
-  color: #3A79FF
-  font-weight: 700
-  border-radius: 2px
-  transition: .3s
-  &:hover
-    background: #becbe7
-
 // welcome section
 
 #welcome-section__carousel
@@ -128,7 +132,6 @@ header
     bottom: 30px
   & .owl-dot
     margin: 5px 7px
-    outline: none
     & span
       margin: 0
       transition: .3s
@@ -198,6 +201,211 @@ header
   background: #F5F8FF
   padding-left: 18.5%
   display: flex
+  align-items: center
+  & img
+    width: 68%
+    padding: 150px 0 20px
 
 .plan-and-manage__text
   width: 32%
+  transform: translateY(-40px)
+  & h5, & h2
+    padding-bottom: 27px
+  & p
+    padding-bottom: 47px
+
+.plan-and-manage__buttons-block
+  display: flex
+  & a
+    display: flex
+    justify-content: center
+    align-items: center
+    font-size: 13px
+  & .video-link
+    background: #4C85FF
+    color: #fff
+    height: 43px
+    width: 130px
+    & svg
+      margin-left: 5px
+      transform: translateY(1.7px)
+  & .features-link
+    height: 41px
+    width: 128px
+    border: 1px solid #D1D1E4
+    color: #ADB4D2
+
+// about us
+
+.about-us
+  padding: 145px 0 170px
+  background-image: url(../img/clouds-background.svg)
+  background-repeat: no-repeat
+  background-position-y: center
+  text-align: center
+  display: flex
+  flex-direction: column
+  align-items: center
+  & h5
+    text-align: center
+    padding-bottom: 20px
+  & h4
+    padding-bottom: 94px
+
+.about-us__cards-container
+  font-family: "Open Sans"
+  display: flex
+  width: 53%
+  justify-content: space-between
+  padding-bottom: 120px
+
+.about-us__cards-container__card
+  flex: 1
+
+.about-us__cards-container__separator
+  display: flex
+  align-items: center
+  & span
+    width: 28px
+    height: 1px
+    background: #DAE4FE
+    margin: 0 20px
+
+.about-us__cards-container__card__header
+  font-size: 14px
+  color: #4074F8
+  font-weight: 700
+  line-height: 25px
+  padding: 33px 0 25px
+
+.about-us__cards-container__card__text
+  font-size: 11px
+  color: #ADB3CB
+  font-weight: 500
+  line-height: 20px
+
+.about-us__read-more-buttons
+  display: flex
+  align-items: center
+
+.about-us__read-more-buttons__read-more
+  background: #FFD7D7
+  color: #D43F3F
+  &:hover
+    background: #e4c0c0
+
+.about-us__read-more-buttons__or
+  font-family: "Open Sans"
+  font-weight: 500
+  font-size: 11px
+
+.about-us__read-more-buttons__separator
+  width: 15px
+  margin: 0 16px
+  height: 1px
+  background: #DAE4FE
+
+// statistics
+
+.statistics
+  display: flex
+  & div
+    flex: 1
+    padding: 66px 90px
+    & h2
+      padding-top: 24px
+      padding-bottom: 30px
+
+.statistics__measurement-container
+  background: linear-gradient(229.32deg, #6888FF 12.77%, #5E80FF 73.11%)
+  color: #FFFFFF
+  text-align: right
+  & h2
+    text-align: right
+    color: #fff
+
+.statistics__user-amount-container
+  background: linear-gradient(101.48deg, #E9EFFF 41.56%, #E0E9FF 81.53%)
+  color: #5E80FF
+  & h2
+    color: #5E80FF
+    text-align: left
+
+.statistics__measurement-container__text, .statistics__user-amount-container__text
+  font-size: 18px
+  font-weight: 500
+
+// resources
+
+.resources
+  background: #F5F8FF
+  padding: 104px 0
+  text-align: center
+  display: flex
+  flex-direction: column
+  align-items: center
+  & h5
+    text-align: center
+
+#resources__carousel
+  & .item
+    border: 1px solid #D8E3FE
+    box-shadow: 0px 15px 50px #EFF4FF
+    width: 66%
+  & .owl-nav
+    & button
+      & svg path
+        transition: 0.3s
+      &:hover
+        background: transparent
+      &:hover svg path
+        stroke: #6888FF
+  & .owl-dots
+    & .owl-dot span
+      background: #D1D6E3
+      &:hover
+        background: #5283FF
+    & .owl-dot.active
+      & span
+        background: #5283FF
+
+.resources__carousel__content
+  padding: 64px 38px
+  & .image-with-search-icon
+    display: flex
+    justify-content: center
+    align-items: center
+    position: relative
+    & .search-icon
+      opacity: 0
+      transition: 0.3s
+      z-index: 3
+      position: absolute
+      height: 65px
+      width: 65px
+    &:hover
+      & .search-icon
+        opacity: 1
+
+.resources__carousel__content__image-collection
+  display: flex
+  justify-content: space-between
+  width: 410px
+  & .big-photo
+    flex: 2
+    margin-right: 13px
+  & .photo-column
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+
+
+
+
+
+
+
+
+
+
+
