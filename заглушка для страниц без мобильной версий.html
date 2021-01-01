@@ -1,0 +1,35 @@
+<div class="only-desktop-stub">
+
+    <style>
+        .only-desktop-stub__main-text {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            background: #fff;
+            z-index: 99999;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            display: none;
+        }
+        .only-desktop-stub__main-text p {
+            text-align: center;
+        }
+        @media screen and (max-width: 992px) {
+            .only-desktop-stub__main-text {
+                display: flex !important;
+            }
+        }
+    </style>
+    <div class="only-desktop-stub__main-text">
+        <span style="font-size: 48px;"><span style="color: red;text-shadow: 0px 0px 2px rgba(255, 0, 0, 1)">U</span>pps...</span>
+        <p>This page hasn't mobile version <br>
+            You can go to <a href="/" style="text-decoration: underline;color: blue;">main page</a> or you can turn the phone on its side.</p>
+        <br>
+        <p>У этой страницы нет мобильной версии <br>
+            Вы можете пойти на <a href="/" style="text-decoration: underline;color: blue;">главную страницу</a> или перевернуть телефон на бок.
+        </p>
+
+    </div>
+</div>

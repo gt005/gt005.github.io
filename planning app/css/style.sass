@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap')
+
+body
+  font-family: Quicksand
+  margin: 0
+  padding: 0
+  letter-spacing: 0.03em
+
+a
+  display: block
+  text-decoration: none
+
+p
+  font-family: Roboto
+  font-size: 15px
+  color: #8D96BD
+  line-height: 27px
+  padding: 0
+  margin: 0
+
+h2, h3, h4
+  padding: 0
+  margin: 0
+  font-weight: 500
+  color: #3D4F9F
+
+h2
+  font-size: 48px
+  text-align: center
+  padding-bottom: 28px
+  & span.light
+    font-weight: 300
+
+h3
+  font-size: 36px
+  & span.light
+    font-weight: 400
+
+h4
+  font-size: 24px
+
+h5
+  font-family: Roboto
+  font-size: 10px
+  font-style: normal
+  font-weight: 500
+  line-height: 12px
+  letter-spacing: 0.1em
+  text-align: left
+  color: #3D4F9F
+  padding: 0 0 16px
+  margin: 0
+
+// Header
+header
+  width: 100%
+  display: flex
+  justify-content: center
+  height: 80px
+
+.header
+  width: 83%
+  display: flex
+  justify-content: space-between
+
+.header__links__logo, .header__logo__image
+  height: 26px
+  width: 26px
+
+.header__links
+  display: flex
+  align-items: center
+
+.header__links__links-list
+  display: flex
+  padding-left: 30px
+  & a.link
+    padding-left: 42px
+    font-size: 12px
+    font-weight: 500
+    color: #697CA6
+    transition: .1s
+    line-height: 15px
+    font-style: normal
+    letter-spacing: 0.05em
+
+    &:hover
+      color: #5E81FE
+
+.header__support-buttons
+  display: flex
+  align-items: center
+
+.header__support-buttons__social-network-links
+  display: flex
+  margin-right: 44px
+  & a
+    margin-left: 33px
+    & svg path
+      transition: 0.3s
+    &:hover svg path
+      fill: #6188FF
+
+
+.header__support-buttons__get-started
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 43px
+  width: 113px
+  background: #D2E1FF
+  color: #3A79FF
+  font-weight: 700
+  border-radius: 2px
+  transition: .3s
+  &:hover
+    background: #becbe7
+
+// welcome section
+
+#welcome-section__carousel
+  width: 100%
+  position: relative
+  display: flex
+  justify-content: center
+  & .owl-dots
+    position: absolute
+    bottom: 30px
+  & .owl-dot
+    margin: 5px 7px
+    outline: none
+    & span
+      margin: 0
+      transition: .3s
+      background: #D1D6E3
+      &:hover
+        background: #5283FF
+    &.active
+      & span
+        background: #5283FF
+    
+.welcome-section__carousel__text-content
+  position: absolute
+  width: 100%
+  height: 100%
+  top: 0
+
+.welcome-section__carousel__text-content__header
+  display: flex
+  align-items: center
+  flex-direction: column
+  padding-top: 92px
+  text-align: center
+  & p
+    max-width: 465px
+    padding-bottom: 20px
+
+.welcome-section__carousel__text-content__header__play-btn
+  display: flex
+  justify-content: center
+  align-items: center
+  position: relative
+  &:hover
+    & img:first-child
+      opacity: 0
+    & img:last-child
+      opacity: 1
+  & img
+    border-radius: 26px
+    transition: 0.3s
+    height: 52px
+    width: 52px
+    box-shadow: 0px 10px 50px rgba(201, 209, 231, 0.6)
+  & img:last-child
+    position: absolute
+    opacity: 0
+
+// customers
+
+.customers
+  display: flex
+  justify-content: center
+
+.customers__image-list
+  width: 63%
+  display: flex
+  justify-content: space-between
+  align-items: center
+  padding: 50px 0
+  & svg path
+    transition: 0.3s
+  & svg:hover path
+    fill: #5982E7
+
+// plan and manage
+
+.plan-and-manage
+  background: #F5F8FF
+  padding-left: 18.5%
+  display: flex
+
+.plan-and-manage__text
+  width: 32%
