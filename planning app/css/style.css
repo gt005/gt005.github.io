@@ -1,5 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap");
 * {
   outline: none;
@@ -398,7 +398,7 @@ header {
 
 .resources {
   background: #F5F8FF;
-  padding: 104px 0;
+  padding: 104px 0 215px;
   text-align: center;
   display: flex;
   flex-direction: column;
@@ -408,10 +408,31 @@ header {
   text-align: center;
 }
 
+#resources__carousel {
+  margin-top: 92px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
 #resources__carousel .item {
   border: 1px solid #D8E3FE;
   box-shadow: 0px 15px 50px #EFF4FF;
   width: 66%;
+}
+#resources__carousel .owl-item {
+  display: flex;
+  justify-content: center;
+}
+#resources__carousel .owl-nav .owl-prev {
+  position: absolute;
+  left: 9%;
+  transform: translateY(-90%);
+}
+#resources__carousel .owl-nav .owl-next {
+  position: absolute;
+  right: 9%;
+  transform: translateY(-90%);
 }
 #resources__carousel .owl-nav button svg path {
   transition: 0.3s;
@@ -422,8 +443,14 @@ header {
 #resources__carousel .owl-nav button:hover svg path {
   stroke: #6888FF;
 }
+#resources__carousel .owl-dots {
+  position: absolute;
+  display: flex;
+  bottom: -110px;
+}
 #resources__carousel .owl-dots .owl-dot span {
   background: #D1D6E3;
+  transition: 0.3s;
 }
 #resources__carousel .owl-dots .owl-dot span:hover {
   background: #5283FF;
@@ -433,6 +460,7 @@ header {
 }
 
 .resources__carousel__content {
+  display: flex;
   padding: 64px 38px;
 }
 .resources__carousel__content .image-with-search-icon {
@@ -457,6 +485,11 @@ header {
   display: flex;
   justify-content: space-between;
   width: 410px;
+  flex: 1;
+  margin-right: 35px;
+}
+.resources__carousel__content__image-collection img {
+  box-shadow: 0px 15px 100px #E5EBF8;
 }
 .resources__carousel__content__image-collection .big-photo {
   flex: 2;
@@ -468,10 +501,90 @@ header {
   justify-content: space-between;
 }
 
+.resources__carousel__content__text-content {
+  flex: 1;
+  margin-left: 35px;
+  text-align: left;
+}
+.resources__carousel__content__text-content h3 {
+  padding-bottom: 30px;
+}
+
+.resources__carousel__content__text-content__main-text {
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: 400;
+  letter-spacing: 0.03em;
+  line-height: 27px;
+  color: #8D96BD;
+}
+
+.resources__carousel__content__text-content__support-buttons {
+  display: flex;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.resources__carousel__content__text-content__support-buttons__read-button {
+  margin-right: 40px;
+}
+
+.resources__carousel__content__text-content__support-buttons__add {
+  font-family: Quicksand;
+  font-size: 13px;
+  font-weight: 700;
+  color: #A6B6DA;
+}
+
 @media screen and (max-width: 1100px) {
   .welcome-section__carousel__text-content__header {
     padding-top: 50px;
   }
+}
+.testimonials {
+  display: flex;
+  background: linear-gradient(180deg, #EAF0FF 0%, #F6F9FF 100%);
+}
+
+.testimonials__main-text {
+  padding-left: 18.5%;
+}
+.testimonials__main-text h3 {
+  padding-top: 30px;
+  padding-bottom: 15px;
+}
+
+#testimonials__carousel .owl-item {
+  width: 465px !important;
+  transition: 0.3s;
+  opacity: 0;
+}
+#testimonials__carousel .owl-item.active {
+  opacity: 0.5;
+}
+#testimonials__carousel .owl-item.active.center {
+  opacity: 1;
+}
+#testimonials__carousel .item {
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  background: #fff;
+  box-shadow: 0px 5px 50px #F3F5FA;
+  border: 1px solid #D8E3FE;
+}
+#testimonials__carousel .item p {
+  padding: 41px 70px 53px 70px;
+}
+#testimonials__carousel .item img {
+  height: 62px;
+  width: 62px;
+  position: absolute;
+  bottom: -31px;
+  z-index: 2;
 }
 
 /*# sourceMappingURL=style.css.map */

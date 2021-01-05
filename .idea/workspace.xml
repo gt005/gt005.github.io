@@ -26,7 +26,7 @@
       <change beforePath="$PROJECT_DIR$/planning app/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planning app/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/css/style.sass" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planning app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/заглушка для страниц без мобильной версий.html" beforeDir="false" afterPath="$PROJECT_DIR$/заглушка для страниц без мобильной версий.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planning app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +132,9 @@
       <workItem from="1609108933420" duration="211000" />
       <workItem from="1609109240207" duration="214000" />
       <workItem from="1609506602967" duration="14088000" />
-      <workItem from="1609527185501" duration="8171000" />
+      <workItem from="1609527185501" duration="11961000" />
+      <workItem from="1609776361487" duration="10000" />
+      <workItem from="1609840492013" duration="2818000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1596039452211</created>
