@@ -25,9 +25,10 @@ $(window).ready(function () {
     })
 
     $('#testimonials__carousel').owlCarousel({
-        loop:false,
+        loop:true,
         center:true,
         nav:false,
+        dotsEach: true,
         dots:true,
         touchDrag:true,
         items:2,
@@ -37,4 +38,17 @@ $(window).ready(function () {
         smartSpeed:700,
         margin: 64
     })
+
+    document.querySelectorAll(".resources__carousel__content").forEach(function (element) {
+        element.style = "align-items: center;";
+    })
+
+    document.querySelectorAll("#customer-help__questions-block .customer-help__questions-block__element").forEach(function (element) {
+        element.querySelector(".customer-help__questions-block__element__header").onclick = () => {
+            element.querySelector(".customer-help__questions-block__element__header").classList.toggle("expanded");
+            $(element.querySelector(".customer-help__questions-block__element__content")).fadeToggle("fast");
+        };
+    })
+
+
 });

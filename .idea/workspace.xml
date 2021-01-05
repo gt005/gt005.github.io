@@ -19,8 +19,14 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5b08ad-19c7-42c0-ae74-f3c35d8e8147" name="Default Changelist" comment="">
+    <list default="true" id="9d5b08ad-19c7-42c0-ae74-f3c35d8e8147" name="Default Changelist" comment="Сделал выезжающее окно header">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planning app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planning app/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/css/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planning app/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/css/style.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planning app/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/css/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planning app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/planning app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,6 +67,7 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -82,7 +89,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -128,7 +135,9 @@
       <workItem from="1609506602967" duration="14088000" />
       <workItem from="1609527185501" duration="11961000" />
       <workItem from="1609776361487" duration="10000" />
-      <workItem from="1609840492013" duration="3304000" />
+      <workItem from="1609840492013" duration="2818000" />
+      <workItem from="1609878041305" duration="734000" />
+      <workItem from="1609878789991" duration="9357000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1596039452211</created>
@@ -200,73 +209,28 @@
       <option name="project" value="LOCAL" />
       <updated>1598563531570</updated>
     </task>
-    <task id="LOCAL-00011" summary="planning app: TESTIMONIALS">
-      <created>1609858533225</created>
-      <option name="number" value="00011" />
-      <option name="presentableId" value="LOCAL-00011" />
-      <option name="project" value="LOCAL" />
-      <updated>1609858533225</updated>
-    </task>
-    <option name="localTasksCounter" value="12" />
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Сделал выезжающее окно header" />
-    <MESSAGE value="planning app: TESTIMONIALS" />
-    <option name="LAST_COMMIT_MESSAGE" value="planning app: TESTIMONIALS" />
+    <option name="LAST_COMMIT_MESSAGE" value="Сделал выезжающее окно header" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="355" y="224" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog" timestamp="1603057598691">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="355" y="224" key="#com.intellij.ide.fileTemplates.ui.ConfigureTemplatesDialog/0.0.1440.900/550.-1440.2560.1440@0.0.1440.900" timestamp="1603057598691" />
-    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1609877709663">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1609877709663" />
-    <state x="288" y="150" width="854" height="653" key="EditFileWatcherDialog" timestamp="1609877700383">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="288" y="150" width="854" height="653" key="EditFileWatcherDialog/0.0.1440.900/550.-1440.2560.1440@0.0.1440.900" timestamp="1603057940318" />
-    <state x="288" y="150" key="EditFileWatcherDialog/0.0.1440.900@0.0.1440.900" timestamp="1609877700383" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1609877701377">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900/550.-1440.2560.1440@0.0.1440.900" timestamp="1603057959105" />
-    <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1609877701377" />
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1609877711813">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1609877711813" />
-    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1609508977550">
-      <screen x="0" y="23" width="1440" height="877" />
-    </state>
-    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1609508977550" />
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup" timestamp="1609526016282">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="210" width="670" height="675" key="run.anything.popup/0.0.1440.900@0.0.1440.900" timestamp="1609526016282" />
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup" timestamp="1609541061270">
-      <screen x="0" y="0" width="1440" height="900" />
-    </state>
-    <state x="385" y="196" width="670" height="676" key="search.everywhere.popup/0.0.1440.900@0.0.1440.900" timestamp="1609541061270" />
   </component>
 </project>
