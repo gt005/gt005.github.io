@@ -5,6 +5,8 @@
 
 Адаптивная bootstrap 4 верстка <a href="http://gt005.github.io/designer_portfolio/">сайта</a>-портфолио для дизайнера. <a href="http://gt005.github.io/designer_portfolio/Free  Landing  Page Template.fig">Скачать</a> бесплатный макет.
 
+Ручная верстка без Bootstrap <a href="https://gt005.github.io/planning%20app/">planning app</a>
+
 <h2>По PSD шаблонам:</h2> 
 
 Еще один адаптивный дизайн. Студия звукозаписи и ее сайт <a href="https://gt005.github.io/golden/">golden</a>. Сделан по PSD макету: <a href="https://gt005.github.io/golden/Golden-One Page Web Template.psd">скачать</a>
