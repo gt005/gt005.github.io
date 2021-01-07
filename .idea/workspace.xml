@@ -19,14 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5b08ad-19c7-42c0-ae74-f3c35d8e8147" name="Default Changelist" comment="Сделал выезжающее окно header">
+    <list default="true" id="9d5b08ad-19c7-42c0-ae74-f3c35d8e8147" name="Default Changelist" comment="planning app: TESTIMONIALS">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planning app/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planning app/css/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/css/style.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planning app/css/style.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/css/style.min.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/planning app/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/css/style.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planning app/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planning app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -89,7 +84,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -138,6 +133,7 @@
       <workItem from="1609840492013" duration="2818000" />
       <workItem from="1609878041305" duration="734000" />
       <workItem from="1609878789991" duration="9357000" />
+      <workItem from="1610051885527" duration="39000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1596039452211</created>
@@ -213,24 +209,31 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
-    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Сделал выезжающее окно header" />
     <option name="LAST_COMMIT_MESSAGE" value="Сделал выезжающее окно header" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610051906327">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1610051906327" />
   </component>
 </project>
