@@ -19,9 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d5b08ad-19c7-42c0-ae74-f3c35d8e8147" name="Default Changelist" comment="planning app: TESTIMONIALS">
+    <list default="true" id="9d5b08ad-19c7-42c0-ae74-f3c35d8e8147" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/planning app/css/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/planning app/css/style.sass" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,16 +30,27 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JavaScript File" />
         <option value="Sass File" />
         <option value="CSS File" />
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="JsBowerSettings">
+    <node-interpreter value="project" />
+    <bower-package value="" />
+    <bower.json value="" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
   </component>
   <component name="JupyterTrust" id="f7831387-fb48-459a-aa9c-4009b42e18ea" />
   <component name="ProjectId" id="1fMUCI8JKqEOaLUmYHfFiinTuvv" />
@@ -58,18 +68,37 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/planning app/js" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.3" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/landing_for_it_class/css" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.jscs" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.detected.package.stylelint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.jscs" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
+    <property name="node.js.path.for.package.stylelint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.jscs" value="" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="node.js.selected.package.stylelint" value="" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="watcher.settings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/landing_for_it_class/css" />
+      <recent name="$PROJECT_DIR$/landing_for_it_class/js" />
       <recent name="$PROJECT_DIR$/planning app/css" />
       <recent name="$PROJECT_DIR$/watch group/css" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/landing_for_it_class/css" />
       <recent name="$PROJECT_DIR$/planning app/js" />
       <recent name="$PROJECT_DIR$/watch group/js" />
     </key>
@@ -84,7 +113,7 @@
       </list>
     </recent_temporary>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -133,7 +162,10 @@
       <workItem from="1609840492013" duration="2818000" />
       <workItem from="1609878041305" duration="734000" />
       <workItem from="1609878789991" duration="9357000" />
-      <workItem from="1610051885527" duration="39000" />
+      <workItem from="1610051885527" duration="377000" />
+      <workItem from="1613136119445" duration="743000" />
+      <workItem from="1613136883865" duration="259000" />
+      <workItem from="1613137166911" duration="3101000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1596039452211</created>
@@ -205,35 +237,78 @@
       <option name="project" value="LOCAL" />
       <updated>1598563531570</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="planning app: Исправлены  ошибки">
+      <created>1610051941712</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1610051941712</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test" />
     <MESSAGE value="Сделал выезжающее окно header" />
-    <option name="LAST_COMMIT_MESSAGE" value="Сделал выезжающее окно header" />
+    <MESSAGE value="planning app: Исправлены  ошибки" />
+    <option name="LAST_COMMIT_MESSAGE" value="planning app: Исправлены  ошибки" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="782" y="-875" key="#Closure_Linter" timestamp="1613136861793">
+      <screen x="222" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="782" y="-875" key="#Closure_Linter/0.0.1440.900/222.-1080.1920.1080@222.-1080.1920.1080" timestamp="1613136861793" />
+    <state x="816" y="-855" key="#Inspections" timestamp="1613137367998">
+      <screen x="222" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="816" y="-855" key="#Inspections/0.0.1440.900/222.-1080.1920.1080@222.-1080.1920.1080" timestamp="1613137367998" />
+    <state x="782" y="-875" key="#JSCS" timestamp="1613136848026">
+      <screen x="222" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="782" y="-875" key="#JSCS/0.0.1440.900/222.-1080.1920.1080@222.-1080.1920.1080" timestamp="1613136848026" />
+    <state x="919" y="-644" key="#Stylelint" timestamp="1613137247849">
+      <screen x="222" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="919" y="-644" key="#Stylelint/0.0.1440.900/222.-1080.1920.1080@222.-1080.1920.1080" timestamp="1613137247849" />
+    <state x="919" y="-753" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper" timestamp="1613136722067">
+      <screen x="222" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="919" y="-753" key="#com.intellij.ide.scriptingContext.ui.PerFileMappingsDialogWrapper/0.0.1440.900/222.-1080.1920.1080@222.-1080.1920.1080" timestamp="1613136722067" />
+    <state x="303" y="52" key="CommitChangelistDialog2" timestamp="1610051941432">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="303" y="52" key="CommitChangelistDialog2/0.0.1440.900@0.0.1440.900" timestamp="1610051941432" />
+    <state x="683" y="-901" key="SettingsEditor" timestamp="1613137317638">
+      <screen x="222" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="683" y="-901" key="SettingsEditor/0.0.1440.900/222.-1080.1920.1080@222.-1080.1920.1080" timestamp="1613137317638" />
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2" timestamp="1610051944919">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="320" y="190" key="Vcs.Push.Dialog.v2/0.0.1440.900@0.0.1440.900" timestamp="1610051944919" />
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610051906327">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="503" y="374" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1440.900@0.0.1440.900" timestamp="1610051906327" />
+    <state x="847" y="-839" width="670" height="676" key="search.everywhere.popup" timestamp="1613139171195">
+      <screen x="222" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="847" y="-839" width="670" height="676" key="search.everywhere.popup/0.0.1440.900/222.-1080.1920.1080@222.-1080.1920.1080" timestamp="1613139171195" />
   </component>
 </project>
