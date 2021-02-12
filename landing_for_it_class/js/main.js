@@ -22,7 +22,7 @@ function animateMainBgBlocks() {
         },
         easing: "easeInQuad",
         duration: 3000,
-        delay: 500,
+        delay: 0,
         complete: animateMainBgBlocks,
     });
 }

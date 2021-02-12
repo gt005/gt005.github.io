@@ -39,7 +39,12 @@ h1 {
 }
 
 h2 {
-  font-size: 40px;
+  font-size: 60px;
+  padding-bottom: 30px;
+}
+
+h3 {
+  font-size: 35px;
 }
 
 main {
@@ -81,6 +86,7 @@ main {
 }
 
 .main-section {
+  position: relative;
   overflow: hidden;
   color: #fff;
   background: #1a1b22;
@@ -92,7 +98,7 @@ main {
 .main-section .main-section__arrow {
   position: absolute;
   height: 25vh;
-  bottom: 10vh;
+  bottom: 30px;
   z-index: 10;
   animation: arrow-jump-animation 10s ease-in-out infinite;
 }
@@ -139,7 +145,85 @@ progress {
 }
 
 #about {
+  padding: 80px 0px;
   z-index: 2;
+}
+
+.about__text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.about__text__paragraph {
+  text-indent: 20px;
+}
+
+.about__image-container img {
+  width: 100%;
+}
+
+.timetable {
+  padding: 80px 0;
+  background: #1a1b22;
+  color: #fff;
+}
+
+.timetable__container {
+  padding: 20px 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.timetable__link {
+  transition: 0.2s;
+}
+.timetable__link:hover {
+  color: #17A2B8;
+}
+
+.timetable__dates {
+  display: flex;
+  align-items: center;
+  padding-top: 80px;
+}
+
+.timetable__dates__name-of-date {
+  text-align: center;
+}
+
+.timetable__dates__events-list {
+  border-left: 1px solid #17A2B8;
+  padding-left: 30px;
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+
+.timetable__dates__events-list__element {
+  display: flex;
+  justify-content: start;
+  flex-wrap: wrap;
+  padding: 20px 0px;
+}
+
+.timetable__dates__events-list__element__name {
+  padding-left: 30px;
+}
+
+.timetable__dates__events-list__element__open-more {
+  margin-left: auto;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.timetable__dates__events-list__element__open-more:hover {
+  color: #17A2B8;
+}
+
+.timetable__dates__events-list__element__more-text {
+  padding-top: 20px;
+  width: 100%;
+  display: none;
 }
 
 /*# sourceMappingURL=main.css.map */
