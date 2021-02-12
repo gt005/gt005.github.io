@@ -1,5 +1,8 @@
 # gt005.github.io
 <meta name="yandex-verification" content="62d9068c791b0bb9" />
+<h1>Лучшее</h1>
+<a href="https://gt005.github.io/landing_for_it_class">Сайт-лендинг</a>
+
 <h2>По Figma шаблонам:</h2> 
 Адаптивный сайт для студии дизайна <a href="https://gt005.github.io/gravity/">gravity</a>. <a href="https://gt005.github.io/gravity/Gravity.fig">Скачать макет</a>. <br> <br>
 
