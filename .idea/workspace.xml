@@ -21,6 +21,12 @@
   <component name="ChangeListManager">
     <list default="true" id="9d5b08ad-19c7-42c0-ae74-f3c35d8e8147" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_for_it_class/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_for_it_class/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_for_it_class/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/landing_for_it_class/css/main.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_for_it_class/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_for_it_class/css/main.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_for_it_class/css/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/landing_for_it_class/css/main.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_for_it_class/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing_for_it_class/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/landing_for_it_class/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/landing_for_it_class/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +171,7 @@
       <workItem from="1610051885527" duration="377000" />
       <workItem from="1613136119445" duration="743000" />
       <workItem from="1613136883865" duration="259000" />
-      <workItem from="1613137166911" duration="3101000" />
+      <workItem from="1613137166911" duration="8308000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1596039452211</created>

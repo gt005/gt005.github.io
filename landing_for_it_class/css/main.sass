@@ -1,13 +1,17 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap')
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap')
 
 $main-bg: #1a1b22
 $color-1: #17A2B8
+html
+  scroll-behavior: smooth
 
 *
   margin: 0
   padding: 0
   font-family: 'Inter', sans-serif
+
+body
+  position: relative
 
 a
   display: block
@@ -19,8 +23,9 @@ a
 
 .link-to-join
   background: #ea7e1b
-  padding: 7px 20px
-  border-radius: 5px
+  padding: 9px 23px
+  border-radius: 4px
+  font-size: 18px
   transition: 0.2s
   &:hover
     background: #ff891e
@@ -44,27 +49,74 @@ main
   left: 0
   width: 100%
   color: #fff
-  padding: 15px 0
-  & .logo
-    padding-left: 30px
-    & svg
+  background: transparent
+  z-index: 9999
+  padding-top: 15px
+  padding-bottom: 15px
+  & .row .col-4
+    display: flex
+    align-items: center
+
+.header__logo
+  padding-left: 30px
+  & svg
     width: 100px
-  & .creator-name
-    padding-right: 30px
+
+.header__creator-name__container
+  text-align: end
+  .header__creator-name
     font-size: 12px
-    text-align: right
 
 
 .main-section
+  //position: relative
+  overflow: hidden
   color: #fff
   background: $main-bg
   height: 100vh
   display: flex
   justify-content: center
   align-items: center
+  & .main-section__arrow
+    position: absolute
+    height: 25vh
+    bottom: 10vh
+    z-index: 10
+    animation: arrow-jump-animation 10s ease-in-out infinite
+
+  & h1
+    position: absolute
+    z-index: 10
+  & .main-section__bg-block
+    z-index: 1
+    min-width: 50px
+    height: 100px
+    background: $main-bg
+    border-radius: 2px
+    box-shadow: 0 0 10px 0px rgba(200, 200, 200, 0.08)
+
+
+@keyframes arrow-jump-animation
+  81%
+    transform: translate(0)
+  84%
+    transform: translateY(-13px)
+  87%
+    transform: translate(0)
+  90%
+    transform: translateY(-13px)
+  93%
+    transform: translate(0)
+  96%
+    transform: translateY(-13px)
+  100%
+    transform: translate(0)
 
 
 progress
   margin-left: 10px
   position: relative
   top: 3px
+
+#about
+  z-index: 2

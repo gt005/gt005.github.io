@@ -1,9 +1,16 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+html {
+  scroll-behavior: smooth;
+}
+
 * {
   margin: 0;
   padding: 0;
   font-family: "Inter", sans-serif;
+}
+
+body {
+  position: relative;
 }
 
 a {
@@ -18,8 +25,9 @@ a:hover {
 
 .link-to-join {
   background: #ea7e1b;
-  padding: 7px 20px;
-  border-radius: 5px;
+  padding: 9px 23px;
+  border-radius: 4px;
+  font-size: 18px;
   transition: 0.2s;
 }
 .link-to-join:hover {
@@ -48,19 +56,32 @@ main {
   left: 0;
   width: 100%;
   color: #fff;
-  padding: 15px 0;
+  background: transparent;
+  z-index: 9999;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
-.header .logo {
+.header .row .col-4 {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
   padding-left: 30px;
+}
+.header__logo svg {
   width: 100px;
 }
-.header .creator-name {
-  padding-right: 30px;
+
+.header__creator-name__container {
+  text-align: end;
+}
+.header__creator-name__container .header__creator-name {
   font-size: 12px;
-  text-align: right;
 }
 
 .main-section {
+  overflow: hidden;
   color: #fff;
   background: #1a1b22;
   height: 100vh;
@@ -68,11 +89,57 @@ main {
   justify-content: center;
   align-items: center;
 }
+.main-section .main-section__arrow {
+  position: absolute;
+  height: 25vh;
+  bottom: 10vh;
+  z-index: 10;
+  animation: arrow-jump-animation 10s ease-in-out infinite;
+}
+.main-section h1 {
+  position: absolute;
+  z-index: 10;
+}
+.main-section .main-section__bg-block {
+  z-index: 1;
+  min-width: 50px;
+  height: 100px;
+  background: #1a1b22;
+  border-radius: 2px;
+  box-shadow: 0 0 10px 0px rgba(200, 200, 200, 0.08);
+}
 
+@keyframes arrow-jump-animation {
+  81% {
+    transform: translate(0);
+  }
+  84% {
+    transform: translateY(-13px);
+  }
+  87% {
+    transform: translate(0);
+  }
+  90% {
+    transform: translateY(-13px);
+  }
+  93% {
+    transform: translate(0);
+  }
+  96% {
+    transform: translateY(-13px);
+  }
+  100% {
+    transform: translate(0);
+  }
+}
 progress {
   margin-left: 10px;
   position: relative;
   top: 3px;
+}
+
+#about {
+  z-index: 2;
 }
 
 /*# sourceMappingURL=main.css.map */
