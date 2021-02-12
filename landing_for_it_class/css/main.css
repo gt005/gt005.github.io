@@ -102,6 +102,12 @@ main {
   z-index: 10;
   animation: arrow-jump-animation 10s ease-in-out infinite;
 }
+.main-section .main-section__arrow path {
+  transition: 0.2s;
+}
+.main-section .main-section__arrow:hover path {
+  fill: #17A2B8;
+}
 .main-section h1 {
   position: absolute;
   z-index: 10;
