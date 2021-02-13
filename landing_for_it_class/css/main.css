@@ -265,6 +265,8 @@ progress {
 
   .timetable__dates__events-list__element__open-more {
     padding-top: 5px;
+    width: 100%;
+    text-align: right;
   }
 }
 
