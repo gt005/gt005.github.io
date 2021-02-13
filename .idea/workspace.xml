@@ -20,12 +20,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d5b08ad-19c7-42c0-ae74-f3c35d8e8147" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing_for_it_class/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_for_it_class/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing_for_it_class/css/main.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/landing_for_it_class/css/main.css.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing_for_it_class/css/main.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/landing_for_it_class/css/main.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing_for_it_class/css/main.sass" beforeDir="false" afterPath="$PROJECT_DIR$/landing_for_it_class/css/main.sass" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/landing_for_it_class/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/landing_for_it_class/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/landing_for_it_class/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/landing_for_it_class/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

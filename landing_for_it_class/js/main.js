@@ -27,7 +27,7 @@ function animateMainBgBlocks() {
     });
 }
 
-// animateMainBgBlocks();
+animateMainBgBlocks();
 
 
 let timeTableRow = document.querySelectorAll(".timetable__dates__events-list__element");
