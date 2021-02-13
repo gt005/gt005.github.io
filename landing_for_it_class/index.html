@@ -14,7 +14,7 @@
 
     <div class="container-fluid header">
         <div class="row">
-            <div class="col-4">
+            <div class="col-md-4 col-5 order-0">
                 <div class="header__logo">
                     <svg viewBox="0 0 975 645" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M165 168C165 166.343 166.343 165 168 165H288C302.912 165 315 177.088 315 192V288C315 302.912 302.912 315 288 315H192C177.088 315 165 302.912 165 288V168Z" fill="#17A2B8"/>
@@ -37,10 +37,10 @@
 </svg>
                 </div>
             </div>
-            <div class="col-4 justify-content-center">
+            <div class="col-md-4 col-12 mt-4 mt-md-0 justify-content-center order-md-1 order-last d-flex align-items-center">
                 <a href="http://it-class1158.ru/test_applicant/" class="link-to-join">Поступить в It класс</a>
             </div>
-            <div class="col-4 justify-content-end">
+            <div class="col-md-4 col-7 justify-content-end order-2 d-flex align-items-center">
                 <div class="header__creator-name__container">
                     <span class="header__creator-name">Создано учеником It класса<br>
                     Хамид Карим
@@ -329,6 +329,31 @@
 
 
 <script src="js/anime.min.js"></script>
+<script src="js/jquery.min.js"></script>
+<script>$(document).ready(function(){
+  // Добавить плавную прокрутку до всех ссылок
+  $("a").on('click', function(event) {
+
+    // Убедись в этом что .hash имеет значение перед переопределением поведения по умолчанию
+    if (this.hash !== "") {
+      // Запретить поведение щелчка якоря по умолчанию
+      event.preventDefault();
+
+      // Хранить хэш
+      var hash = this.hash;
+
+      // Использование метода animate() jQuery для добавления плавной прокрутки страницы
+      // Необязательное число (800) указывает количество миллисекунд, необходимых для прокрутки до указанной области
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 500, function(){
+
+        // Добавить хэш (#) для URL-адреса после завершения прокрутки (поведение щелчка по умолчанию)
+        window.location.hash = hash;
+      });
+    } // Конец, если
+  });
+});</script>
 <script src="js/main.js"></script>
 <script>
 

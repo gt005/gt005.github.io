@@ -27,4 +27,4 @@ function animateMainBgBlocks() {
     });
 }
 
-animateMainBgBlocks();
+// animateMainBgBlocks();

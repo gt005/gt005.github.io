@@ -1,8 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-html {
-  scroll-behavior: smooth;
-}
-
 * {
   margin: 0;
   padding: 0;
@@ -24,6 +20,8 @@ a:hover {
 }
 
 .link-to-join {
+  width: fit-content;
+  height: fit-content;
   background: #ea7e1b;
   padding: 9px 23px;
   border-radius: 4px;
@@ -111,6 +109,7 @@ main {
 .main-section h1 {
   position: absolute;
   z-index: 10;
+  text-align: center;
 }
 .main-section .main-section__bg-block {
   z-index: 1;
@@ -230,6 +229,17 @@ progress {
   padding-top: 20px;
   width: 100%;
   display: none;
+}
+
+@media screen and (max-width: 576px) {
+  .main-section h1 {
+    font-size: 12vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .header__logo {
+    padding-left: 0px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
