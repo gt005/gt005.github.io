@@ -39,6 +39,7 @@ h1 {
 h2 {
   font-size: 60px;
   padding-bottom: 30px;
+  max-width: 80vw;
 }
 
 h3 {
@@ -237,8 +238,22 @@ progress {
   }
 }
 @media screen and (max-width: 767px) {
+  h2 {
+    font-size: 52px;
+  }
+
   .header__logo {
     padding-left: 0px;
+  }
+
+  .timetable__container {
+    padding: 0;
+    flex-wrap: wrap;
+  }
+  .timetable__container .timetable__link {
+    width: 45vw;
+    text-align: center;
+    padding-top: 15px;
   }
 }
 
