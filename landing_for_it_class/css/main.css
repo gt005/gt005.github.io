@@ -37,7 +37,7 @@ h1 {
 }
 
 h2 {
-  font-size: 60px;
+  font-size: 55px;
   padding-bottom: 30px;
   max-width: 80vw;
 }
@@ -51,7 +51,7 @@ main {
 }
 
 .color-1 {
-  color: #17A2B8;
+  color: #17a2b8;
 }
 
 .header {
@@ -105,7 +105,7 @@ main {
   transition: 0.2s;
 }
 .main-section .main-section__arrow:hover path {
-  fill: #17A2B8;
+  fill: #17a2b8;
 }
 .main-section h1 {
   position: absolute;
@@ -155,6 +155,12 @@ progress {
   z-index: 2;
 }
 
+.about__mini-label {
+  padding-left: 15px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
 .about__text {
   height: 100%;
   display: flex;
@@ -164,6 +170,7 @@ progress {
 
 .about__text__paragraph {
   text-indent: 20px;
+  font-size: 18px;
 }
 
 .about__image-container img {
@@ -171,7 +178,7 @@ progress {
 }
 
 .timetable {
-  padding: 80px 0 40px;
+  padding: 80px 0 0;
   background: #1a1b22;
   color: #fff;
 }
@@ -199,7 +206,7 @@ progress {
 }
 
 .timetable__dates__events-list {
-  border-left: 1px solid #17A2B8;
+  border-left: 1px solid #17a2b8;
   padding-left: 30px;
   margin-bottom: 40px;
   font-size: 18px;
@@ -212,6 +219,10 @@ progress {
   padding: 20px 0px;
 }
 
+.timetable__dates__events-list__element__time {
+  min-width: 13ex;
+}
+
 .timetable__dates__events-list__element__name {
   padding-left: 30px;
 }
@@ -221,8 +232,11 @@ progress {
   cursor: pointer;
   transition: 0.2s;
 }
+.timetable__dates__events-list__element__open-more span {
+  color: gold;
+}
 .timetable__dates__events-list__element__open-more:hover {
-  color: #17A2B8;
+  color: #17a2b8;
 }
 
 .timetable__dates__events-list__element__more-text {
@@ -232,16 +246,33 @@ progress {
 }
 
 footer {
-  text-align: center;
-  padding-bottom: 20px;
-  color: #17A2B8;
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   background: #1a1b22;
-  font-size: 14px;
+  font-size: 28px;
+}
+footer p {
+  font-size: 12px;
+  color: #17a2b8;
+}
+footer a {
+  padding: 80px 0;
+  transition: 0.2s;
+}
+footer a:hover {
+  color: #17a2b8;
 }
 
 @media screen and (max-width: 576px) {
   .main-section h1 {
     font-size: 12vw;
+    transform: translateY(-40px);
+  }
+
+  .main-section .main-section__arrow {
+    bottom: 70px;
   }
 }
 @media screen and (max-width: 767px) {
