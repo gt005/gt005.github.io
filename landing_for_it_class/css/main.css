@@ -258,11 +258,8 @@ footer p {
   color: #17a2b8;
 }
 footer a {
-  padding: 80px 0;
   transition: 0.2s;
-}
-footer a:hover {
-  color: #17a2b8;
+  color: #fff;
 }
 
 @media screen and (max-width: 576px) {
